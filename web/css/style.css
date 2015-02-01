@@ -178,7 +178,7 @@ body {
 	font-family: 'oxygenregular';
 	padding: 9px;
 }
-#menu-principal ul li a #cotizador{
+#menu-principal ul li #cotizador{
 	background: #FF4C21;
 }
 /* start main_btm */
