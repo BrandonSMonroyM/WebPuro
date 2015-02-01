@@ -165,18 +165,22 @@ body {
 #menu-principal{
 	width: 100%;
 }
+#menu-principal .Logo-menu{
+	float: left;
+	padding: 10px;
+}
 #menu-principal ul {
 	float: right;
 	width: 50%;
 }
 #menu-principal ul li{
 	display: inline-block;
-	padding: 9px;
+	padding: 28px 8px;
 }
 #menu-principal ul li a{
 	color: #fff;
 	font-family: 'oxygenregular';
-	padding: 9px;
+	padding: 3px 8px;
 }
 #menu-principal ul li #cotizador{
 	background: #FF4C21;
@@ -624,7 +628,26 @@ h2{
 	float: right;
 	margin-right: 45%;	
 }
-
+.subs input[type="email"]{
+	border       : 1px solid #ccc;
+	border-radius: 5px;
+	padding      : 5px 10px;
+}
+.subs input[type="email"]:focus{
+	outline: none;
+}
+.subs input[type="submit"]{
+	background: #BA1910;
+	border    :1px solid #BA1910;
+	color     : #fff;
+	padding   : 5px 10px;
+}
+.subs input[type="submit"]:focus{
+	outline: none;
+}
+.sub strong{
+	font-family: 'bebas_neueregular';
+}
 .company_address p{
 	color:#525252;
 	font-size:0.8125em;
@@ -638,8 +661,12 @@ h2{
 	margin-bottom: 2%;
 }
 #Redes-contenedor{
-	width: 20%;
 	float: right;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: 20%;
 }
 .Redes{
 	width: 13%;
@@ -658,6 +685,7 @@ h2{
 .footer-bottom {
 	padding: 25px 0;
 	background: #FF4C21;
+	position: relative;
 }
 .copy p {
 	color: #FFFFFF;
