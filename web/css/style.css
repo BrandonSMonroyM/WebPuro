@@ -178,6 +178,9 @@ body {
 	font-family: 'oxygenregular';
 	padding: 9px;
 }
+#menu-principal ul li a #cotizador{
+	background: #FF4C21;
+}
 /* start main_btm */
 .container h2{
 	color:#4D4D4D;
