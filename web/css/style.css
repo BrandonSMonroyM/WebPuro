@@ -675,22 +675,25 @@ h2{
 .subs{
 	left: 0;
 	margin-top: 39px;
-	position: 	absolute;
+	margin-left: 20px;
+	position: absolute;
 	top: 0;
 }
 .subs input[type="email"]{
 	border       : 1px solid #ccc;
 	border-radius: 5px;
-	padding      : 5px 10px;
+	padding      : 10px 18px;
+	width: 280px;
 }
 .subs input[type="email"]:focus{
 	outline: none;
 }
 .subs input[type="submit"]{
 	background: #BA1910;
-	border    :1px solid #BA1910;
-	color     : #fff;
-	padding   : 5px 10px;
+	border :1px solid #BA1910;
+	color : #fff;
+	font-family: 'oxygenregular';
+	padding : 4px 18px;
 }
 .subs input[type="submit"]:focus{
 	outline: none;
@@ -741,8 +744,8 @@ h2{
 }
 .copy p {
 	color: #FFFFFF;
-	font-size: 0.8125em;
-	line-height: 1.8em;
+	font-size: 17px;
+	line-height: 80px;
 	text-align: center;
 }
 .copy p a {
