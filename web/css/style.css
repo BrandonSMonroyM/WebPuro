@@ -165,18 +165,22 @@ body {
 #menu-principal{
 	width: 100%;
 }
+#menu-principal .Logo-menu{
+	float: left;
+	padding: 10px;
+}
 #menu-principal ul {
 	float: right;
 	width: 50%;
 }
 #menu-principal ul li{
 	display: inline-block;
-	padding: 9px;
+	padding: 28px 8px;
 }
 #menu-principal ul li a{
 	color: #fff;
 	font-family: 'oxygenregular';
-	padding: 9px;
+	padding: 3px 8px;
 }
 /* start main_btm */
 .container h2{
@@ -195,17 +199,13 @@ body {
 	margin-top: 4%;
 	display: block;
 }
-.tienda{
-	margin-top: auto;
-	margin-left: 5%;
-	width: 45%;
-	float: left
-}
-.tiendas {
-	width: 100%;
-	margin-top: 0;
+#Tiendas-Online{
+	margin-top: -64px;
+	margin-left: 0px;
+	width: 591px;
 }
 .planes{
+<<<<<<< HEAD
 	display: inline-block;
 	margin-top:auto;
 	margin-right: 5%;
@@ -247,6 +247,19 @@ body {
 }
 .Economico{
 	
+=======
+	position: relative;
+	width: 50%;
+	float: right;
+}
+.plan{
+	margin-top: -64px;
+	width: 250.7px;
+	height: 295px;
+}
+.Economico{
+	margin-left: -81px;
+>>>>>>> origin/master
 	transition: 1.5s ease;
  	-o-transition: 1.5s ease; /* Opera */
  	-moz-transition: 1.5s ease; /* Firefox */
@@ -267,6 +280,7 @@ hr{
 	border: 1px solid #fff;
 	width: 20%;
 }
+<<<<<<< HEAD
 .economico{
 		
 }
@@ -275,20 +289,46 @@ hr{
 }
 .visionario{
 		
+=======
+.descripcion_planes{
+	color: #fff;
+	float: right;
+	margin-top: -178px;
+	text-align: center;
+	width: 50%;
 }
-.algunos{
-	margin: 0 auto;
-	width: 70%;
+.descripcion_plan{
+	background: #FF4C21;
+	border: 1px solid #FF4C21;
+	height: 209px;
+	margin-left: -81px;
+	width: 249px;
+}
+.Titulo_Plan{
+	font-size: 20px;
+}
+.Emprendedor_desc{
+	height: 210px;
+	margin-left: 169px;
+	margin-top: -212px;
+	width: 249px;
+}
+.Profesional_desc{
+	height: 210px;
+	margin-left: 419px;
+	margin-top: -212px;
+	width: 250px;
+>>>>>>> origin/master
+}
+.Galeria{
+	margin: 0 0 30px -685px;
 }
 
 #casos{
 	color: #000;
 	font-size: 60px;
 	font-family: 'bebas_neueregular';
-	text-align: center;
-}
-.Casos-de-exito{
-	text-align: center;
+    src: url('../fonts/Bebas/bebasneue_regular-webfont.eot');
 }
 em{
 	color: #F44F16;
@@ -327,9 +367,8 @@ h2{
 	position: relative;
 	margin: 0px auto;
 	width: 100%;
-	height: auto;
+	height: 423px;
 	background: #363636;
-	overflow: hidden;
 }
 .gallery1 {
 	padding: 4em 0em;
@@ -469,11 +508,11 @@ h2{
 	line-height: 360px;
 }
 .s-wp #p-soluciones-web{
-	font-size: 21px;
 	font-family: 'bebas_neueregular';
-	width: 50%;
-	margin: auto;
+	font-size: 25px;
 	margin-top: -120px;
+	margin: auto;
+	width: 56%;
 }
 .grid
 {
@@ -633,7 +672,32 @@ h2{
 	float: right;
 	margin-right: 45%;	
 }
-
+.subs{
+	left: 0;
+	margin-top: 39px;
+	position: 	absolute;
+	top: 0;
+}
+.subs input[type="email"]{
+	border       : 1px solid #ccc;
+	border-radius: 5px;
+	padding      : 5px 10px;
+}
+.subs input[type="email"]:focus{
+	outline: none;
+}
+.subs input[type="submit"]{
+	background: #BA1910;
+	border    :1px solid #BA1910;
+	color     : #fff;
+	padding   : 5px 10px;
+}
+.subs input[type="submit"]:focus{
+	outline: none;
+}
+.sub strong{
+	font-family: 'bebas_neueregular';
+}
 .company_address p{
 	color:#525252;
 	font-size:0.8125em;
@@ -647,11 +711,16 @@ h2{
 	margin-bottom: 2%;
 }
 #Redes-contenedor{
-	width: 20%;
 	float: right;
+	margin-top: 5px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: 20%;
 }
 .Redes{
-	width: 13%;
+	width: 20%;
 }
 .list3 li img
 {
@@ -665,8 +734,10 @@ h2{
 }
 /*--footer--*/
 .footer-bottom {
-	padding: 25px 0;
 	background: #FF4C21;
+	height: 75px;
+	padding: 25px 0;
+	position: relative;
 }
 .copy p {
 	color: #FFFFFF;
