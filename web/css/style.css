@@ -178,9 +178,6 @@ body {
 	font-family: 'oxygenregular';
 	padding: 9px;
 }
-#menu-principal ul li #cotizador{
-	background: #FF4C21;
-}
 /* start main_btm */
 .container h2{
 	color:#4D4D4D;
@@ -209,6 +206,7 @@ body {
 	margin-top: 0;
 }
 .planes{
+	display: inline-block;
 	margin-top:auto;
 	margin-right: 5%;
 	width: 45%;
@@ -216,26 +214,39 @@ body {
 }
 .descripcion{
 	background: #FF4C21;
-	border: 1px solid #FF4C21;
 	display:inline-block;
-	float: right;color: #fff;
-	float: right;
+	color: #fff;
+	float: left;
 	height: auto;
 	margin-bottom: auto;
-	margin-top:auto;
-	padding: 10px 10px;
+	margin-top:0;
+	padding-bottom: 5px;
 	text-align: center;
-	width: 30%;
+	width: 100%;
+}
+.descripcion p{
+	margin: auto;
+	width: 90%;
+}
+.modulo{
+	float: left;
+	width: 33.3%;
+	
+}
+.Titulo_Plan{
+	font-family: 'bebas_neueregular';
+	font-size: 36px;
+	width: auto;
+	
 }
 .plan{
-	display:inline-block;
-	width: 10px;
-	margin-top: auto;
-	width: 33%;
-	height: auto;
+	display:block;
+	margin-top: 0;
+	width: 100%;
+	height: 100%;
 }
 .Economico{
-	margin-left: auto;
+	
 	transition: 1.5s ease;
  	-o-transition: 1.5s ease; /* Opera */
  	-moz-transition: 1.5s ease; /* Firefox */
@@ -249,14 +260,6 @@ body {
 	-webkit-transform : scale(1.5); /* Chrome - Safari */
 
 }
-.Emprendedor{
-	margin-left: -3px;
-}
-.Emprendedor:hover{
-}
-.Profesional{
-	margin-left: -3px;
-}
 .Profesional:hover{
 }
 hr{
@@ -264,23 +267,14 @@ hr{
 	border: 1px solid #fff;
 	width: 20%;
 }
-
+.economico{
+		
 }
-
-.Titulo_Plan{
-	font-size: 20px;
+.emprendedor{
+		
 }
-.descripcion_economico{
-	height: 210px;
-	margin-left: 169px;
-	margin-top: -212px;
-	width: 249px;
-}
-.descripcion_Emprendedor{
-	height: 210px;
-	margin-left: 419px;
-	margin-top: -212px;
-	width: 250px;
+.visionario{
+		
 }
 .algunos{
 	margin: 0 auto;
