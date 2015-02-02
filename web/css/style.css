@@ -464,11 +464,11 @@ h2{
 	line-height: 360px;
 }
 .s-wp #p-soluciones-web{
-	font-size: 21px;
 	font-family: 'bebas_neueregular';
-	width: 50%;
-	margin: auto;
+	font-size: 25px;
 	margin-top: -120px;
+	margin: auto;
+	width: 56%;
 }
 .grid
 {
@@ -628,6 +628,12 @@ h2{
 	float: right;
 	margin-right: 45%;	
 }
+.subs{
+	left: 0;
+	margin-top: 39px;
+	position: 	absolute;
+	top: 0;
+}
 .subs input[type="email"]{
 	border       : 1px solid #ccc;
 	border-radius: 5px;
@@ -662,6 +668,7 @@ h2{
 }
 #Redes-contenedor{
 	float: right;
+	margin-top: 5px;
 	position: absolute;
 	right: 0;
 	text-align: center;
@@ -669,7 +676,7 @@ h2{
 	width: 20%;
 }
 .Redes{
-	width: 13%;
+	width: 20%;
 }
 .list3 li img
 {
@@ -683,8 +690,9 @@ h2{
 }
 /*--footer--*/
 .footer-bottom {
-	padding: 25px 0;
 	background: #FF4C21;
+	height: 75px;
+	padding: 25px 0;
 	position: relative;
 }
 .copy p {
