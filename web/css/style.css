@@ -165,18 +165,26 @@ body {
 #menu-principal{
 	width: 100%;
 }
+#menu-principal .menu-logo{
+	float: left;
+	margin: 6px 6px;
+	width: 13%;
+}
 #menu-principal ul {
 	float: right;
 	width: 50%;
 }
 #menu-principal ul li{
 	display: inline-block;
-	padding: 9px;
+	padding: 19px 15px;
 }
 #menu-principal ul li a{
 	color: #fff;
 	font-family: 'oxygenregular';
-	padding: 9px;
+	padding: 0px 6px;
+}
+#menu-principal ul li .cotizador{
+	background-color: #FF4C21;
 }
 /* start main_btm */
 .container h2{
