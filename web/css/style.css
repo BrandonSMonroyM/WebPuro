@@ -118,6 +118,7 @@ body {
 	-webkit-transition: 0.9s;
 	-moz-transition: 0.9s;
 	-o-transition: 0.9s;
+	-ms-transition: 0.9s;
 	transition: 0.9s;
 }
 .nav > ul > li > a:hover {
@@ -308,7 +309,7 @@ hr{
 }
 .algunos{
 	margin: 0 auto;
-	width: 70%;
+	width: 80%;
 }
 
 #casos{
@@ -483,12 +484,12 @@ h2{
 {
 	width:90%;
 	margin: 0 auto;
-	margin-top: -40px;
+	margin-top: -165px;
 }
 .s-wp{
 	background     : url("../images/banners/soluciones_webpuro.net.jpg");
 	background-size: cover;
-	height         : 520px;
+	height         : 280px;
 	margin         : -78px 0 0 0;
 	width          : 1343px;
 }
@@ -510,6 +511,7 @@ h2{
 	width: 32%;
 	float: left;
 	background: #FF4C21;
+	border-radius: 4% 4% 0 0;
 }
 .dc_zoom_css span.roll_css6:hover {
 	-moz-transition-duration: 1s;
@@ -530,7 +532,8 @@ h2{
 	opacity:1;
 }
 .post-person{
-	width:55%;
+	width: 200px;
+	margin-top: 20px;
 }
 .grid:nth-child(3)
 {
