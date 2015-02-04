@@ -194,26 +194,30 @@ body {
 	display: block;
 	background: url(../images/buttonimgh.png);
 }
-#menu-principal{
+.menu-principal{
 	width: 100%;
 }
+<<<<<<< HEAD
 #menu-principal img{
 	float: left;
 	margin: 10px 0 0 10px;
 	width: 13%;
 }
 #menu-principal ul {
+=======
+.menu-principal ul {
+>>>>>>> origin/master
 	float: right;
 	width: 50%;
 }
-#menu-principal ul li{
+.menu-principal ul li{
 	display: inline-block;
 	padding: 22px 12px;
 }
 #menu-principal ul li .cotizador{
 	background: #FF4C21;
 }
-#menu-principal ul li a{
+.menu-principal ul li a{
 	color: #fff;
 	font-family: 'oxygenregular';
 	padding: 0 8px;
@@ -500,12 +504,12 @@ h2{
 {
 	width:90%;
 	margin: 0 auto;
-	margin-top: -165px;
+	margin-top: -30px;
 }
 .s-wp{
 	background     : url("../images/banners/soluciones_webpuro.net.jpg");
 	background-size: cover;
-	height         : 280px;
+	height         : 560px;
 	margin         : -78px 0 0 0;
 	width          : 1343px;
 }
