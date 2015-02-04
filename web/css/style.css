@@ -202,12 +202,15 @@ body {
 }
 #menu-principal ul li{
 	display: inline-block;
-	padding: 9px;
+	padding: 10px 12px;
+}
+#menu-principal ul li .cotizador{
+	background: #FF4C21;
 }
 #menu-principal ul li a{
 	color: #fff;
 	font-family: 'oxygenregular';
-	padding: 9px;
+	padding: 0 8px;
 }
 /* start main_btm */
 .container h2{
@@ -594,12 +597,14 @@ h2{
 }
 .contact h2{
 	color:#fff;
+	font-family: 'oxygenregular';
 	font-size:2em;
 	padding: 2em 0em 0.7em 0em;
 	text-align: center;
 }
 .contact h4{
 	color:#fff;
+	font-family: 'oxygenregular';
 	font-size:1em;
 	text-align: center;
 }
@@ -648,7 +653,7 @@ h2{
 }
 .contact-form form input[type="submit"] 
 {
-	font-family: 'Lato', sans-serif;
+	font-family: 'bebas_neueregular';
 	color:#fff;
 	padding: 0.8em 1.5em;
 	background: #BA1910;
@@ -660,7 +665,7 @@ h2{
 	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 	cursor: pointer;
-	font-size: 1em;
+	font-size: 20px;
 	outline: none;
 	text-transform: uppercase;
 	float: right;
@@ -680,11 +685,15 @@ h2{
 	margin-bottom: 2%;
 }
 #Redes-contenedor{
-	width: 20%;
 	float: right;
+	margin-top: 6px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 20%;
 }
 .Redes{
-	width: 13%;
+	width: 18%;
 }
 .list3 li img
 {
@@ -698,13 +707,15 @@ h2{
 }
 /*--footer--*/
 .footer-bottom {
-	padding: 25px 0;
 	background: #FF4C21;
+	height: 65px;
+	padding: 25px 0;
+	position: relative;
 }
 .copy p {
 	color: #FFFFFF;
 	font-size: 0.8125em;
-	line-height: 1.8em;
+	line-height: 65px;
 	text-align: center;
 }
 .copy p a {
@@ -726,6 +737,38 @@ h2{
 	text-indent: 100%;
 	background: url(../images/top-move.png) no-repeat right top;
 	background-size: 44px;
+}
+/***********************/
+/*     Subscribete     */
+/***********************/
+.subs{
+	left: 0;
+	margin-left: 20px;
+	margin-top: 40px;
+	position: absolute;
+	top: 0;
+}
+.subs input[type="email"] {
+	border-radius: 8px;
+	border: 1px solid #ccc;
+	font-family: 'bebas_neueregular';
+	font-size: 25px;
+	padding: 6px;
+	width: 280px;
+}
+.subs input[type="submit"] {
+	background: #BA1910;
+	border: 1px solid #BA1910;
+	color: #fff;
+	cursor: pointer;
+	font-family: 'bebas_neueregular';
+	font-size: 21px;
+	padding: 9px;
+}
+.subs strong{
+	color: #fff;
+	font-family: 'bebas_neueregular';
+	word-spacing: 4px;
 }
 /* #Tablet (Portrait) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
