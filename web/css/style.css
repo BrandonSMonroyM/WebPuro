@@ -197,16 +197,12 @@ body {
 .menu-principal{
 	width: 100%;
 }
-<<<<<<< HEAD
-#menu-principal img{
+.menu-principal img{
 	float: left;
 	margin: 10px 0 0 10px;
 	width: 13%;
 }
-#menu-principal ul {
-=======
 .menu-principal ul {
->>>>>>> origin/master
 	float: right;
 	width: 50%;
 }
@@ -214,7 +210,7 @@ body {
 	display: inline-block;
 	padding: 22px 12px;
 }
-#menu-principal ul li .cotizador{
+.menu-principal ul li .cotizador{
 	background: #FF4C21;
 }
 .menu-principal ul li a{
@@ -227,7 +223,7 @@ body {
 	-moz-transition: .5s;
 	-webkit-transition: .5s;
 }
-#menu-principal ul li a:hover{
+.menu-principal ul li a:hover{
 	background: #FF4C21;
 }
 .container h2{
@@ -271,18 +267,25 @@ body {
 	height: auto;
 	margin-bottom: auto;
 	margin-top:0;
-	padding-bottom: 5px;
+	padding-bottom: 12px;
 	text-align: center;
 	width: 100%;
 }
 .descripcion p{
 	margin: auto;
 	width: 90%;
+	margin-bottom: 10px;
 }
 .modulo{
 	float: left;
 	width: 33.3%;
 	
+}
+.ver-mas{
+	background: #BA1910;
+	border-radius: 5px;
+	color: #fff;
+	padding: 6px;
 }
 .Titulo_Plan{
 	font-family: 'bebas_neueregular';
@@ -504,14 +507,14 @@ h2{
 {
 	width:90%;
 	margin: 0 auto;
-	margin-top: -30px;
+	margin-top: -165px;
 }
 .s-wp{
-	background     : url("../images/banners/soluciones_webpuro.net.jpg");
+	background : url("../images/banners/soluciones_webpuro.net.jpg");
 	background-size: cover;
-	height         : 560px;
-	margin         : -78px 0 0 0;
-	width          : 1343px;
+	height : 280px;
+	margin : -78px 0 0 0;
+	width : 100%;
 }
 .s-wp #soluciones-web{
 	color: #fff;
@@ -778,6 +781,9 @@ h2{
 	padding: 6px;
 	width: 280px;
 }
+.subs input[type="email"]:focus{
+	outline: none;
+}
 .subs input[type="submit"] {
 	background: #BA1910;
 	border: 1px solid #BA1910;
@@ -786,6 +792,9 @@ h2{
 	font-family: 'bebas_neueregular';
 	font-size: 21px;
 	padding: 9px;
+}
+.subs input[type="submit"]:focus{
+	outline: none;
 }
 .subs strong{
 	color: #fff;
