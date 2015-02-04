@@ -173,7 +173,7 @@ body {
 }
 .da-slide .da-link:hover
 {
-	background:#01CAA1;
+	background:#ff4c21;
 }
 .da-img{
 	width: 50px;
@@ -204,7 +204,7 @@ body {
 	display: inline-block;
 	padding: 10px 12px;
 }
-#menu-principal ul li .cotizador{
+.menu-principal ul li .cotizador{
 	background: #FF4C21;
 }
 .menu-principal ul li a{
@@ -515,6 +515,7 @@ h2{
 	float: left;
 	background: #FF4C21;
 	border-radius: 4% 4% 0 0;
+	padding: 1.5em 0;
 }
 .dc_zoom_css span.roll_css6:hover {
 	-moz-transition-duration: 1s;
@@ -570,6 +571,14 @@ h2{
 	text-align : center;
 }
 /**********end-about-style**********/
+.ver{
+	background: #741801;
+	color: #fff;
+	margin: 10px;
+	margin-bottom: 2em;
+	border-radius: 10%;
+	padding: .5em .5em .5em .5em;
+}
 
 /***********  Contact Form  *************/
 .col{
@@ -989,6 +998,7 @@ padding: 0.5em 0.7em;
 }
 .grid {
 	width: 45%;
+	height: 100%;
 	margin-right: 10%;
 }
 .grid:nth-child(2) {
