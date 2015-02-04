@@ -136,6 +136,7 @@ body {
 .slider_bg{
 	background: url("../images/banners/fondo_webpuro.net.jpg");
 	background-size: cover;
+	background-position: -2px 0;
 }
 .da-slide {
 	padding: 11% 0%;
@@ -173,7 +174,7 @@ body {
 }
 .da-slide .da-link:hover
 {
-	background:#ff4c21;
+	background:#01CAA1;
 }
 .da-img{
 	width: 50px;
@@ -196,13 +197,18 @@ body {
 .menu-principal{
 	width: 100%;
 }
+.menu-principal img{
+	float: left;
+	margin: 10px 0 0 10px;
+	width: 13%;
+}
 .menu-principal ul {
 	float: right;
 	width: 50%;
 }
 .menu-principal ul li{
 	display: inline-block;
-	padding: 10px 12px;
+	padding: 22px 12px;
 }
 .menu-principal ul li .cotizador{
 	background: #FF4C21;
@@ -211,8 +217,15 @@ body {
 	color: #fff;
 	font-family: 'oxygenregular';
 	padding: 0 8px;
+	transition: .5s;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
 }
-/* start main_btm */
+.menu-principal ul li a:hover{
+	background: #FF4C21;
+}
 .container h2{
 	color:#4D4D4D;
 	font-size: 2em;
@@ -254,18 +267,25 @@ body {
 	height: auto;
 	margin-bottom: auto;
 	margin-top:0;
-	padding-bottom: 5px;
+	padding-bottom: 12px;
 	text-align: center;
 	width: 100%;
 }
 .descripcion p{
 	margin: auto;
 	width: 90%;
+	margin-bottom: 10px;
 }
 .modulo{
 	float: left;
 	width: 33.3%;
 	
+}
+.ver-mas{
+	background: #BA1910;
+	border-radius: 5px;
+	color: #fff;
+	padding: 6px;
 }
 .Titulo_Plan{
 	font-family: 'bebas_neueregular';
@@ -487,14 +507,14 @@ h2{
 {
 	width:90%;
 	margin: 0 auto;
-	margin-top: -30px;
+	margin-top: -165px;
 }
 .s-wp{
-	background     : url("../images/banners/soluciones_webpuro.net.jpg");
+	background : url("../images/banners/soluciones_webpuro.net.jpg");
 	background-size: cover;
-	height         : 560px;
-	margin         : -78px 0 0 0;
-	width          : 1343px;
+	height : 280px;
+	margin : -78px 0 0 0;
+	width : 100%;
 }
 .s-wp #soluciones-web{
 	color: #fff;
@@ -515,7 +535,6 @@ h2{
 	float: left;
 	background: #FF4C21;
 	border-radius: 4% 4% 0 0;
-	padding: 1.5em 0;
 }
 .dc_zoom_css span.roll_css6:hover {
 	-moz-transition-duration: 1s;
@@ -571,14 +590,6 @@ h2{
 	text-align : center;
 }
 /**********end-about-style**********/
-.ver{
-	background: #741801;
-	color: #fff;
-	margin: 10px;
-	margin-bottom: 2em;
-	border-radius: 10%;
-	padding: .5em .5em .5em .5em;
-}
 
 /***********  Contact Form  *************/
 .col{
@@ -729,9 +740,14 @@ h2{
 }
 .copy p a {
 	color: #FFF;
+	transition: .5s;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
 }
 .copy p a:hover {
-	color: #1BBC9B;
+	color: #000;
 }
 #toTop {
 	display: none;
@@ -765,6 +781,9 @@ h2{
 	padding: 6px;
 	width: 280px;
 }
+.subs input[type="email"]:focus{
+	outline: none;
+}
 .subs input[type="submit"] {
 	background: #BA1910;
 	border: 1px solid #BA1910;
@@ -773,6 +792,9 @@ h2{
 	font-family: 'bebas_neueregular';
 	font-size: 21px;
 	padding: 9px;
+}
+.subs input[type="submit"]:focus{
+	outline: none;
 }
 .subs strong{
 	color: #fff;
@@ -998,7 +1020,6 @@ padding: 0.5em 0.7em;
 }
 .grid {
 	width: 45%;
-	height: 100%;
 	margin-right: 10%;
 }
 .grid:nth-child(2) {
