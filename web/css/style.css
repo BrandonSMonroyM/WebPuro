@@ -136,6 +136,7 @@ body {
 .slider_bg{
 	background: url("../images/banners/fondo_webpuro.net.jpg");
 	background-size: cover;
+	background-position: -2px 0;
 }
 .da-slide {
 	padding: 11% 0%;
@@ -196,13 +197,18 @@ body {
 #menu-principal{
 	width: 100%;
 }
+#menu-principal img{
+	float: left;
+	margin: 10px 0 0 10px;
+	width: 13%;
+}
 #menu-principal ul {
 	float: right;
 	width: 50%;
 }
 #menu-principal ul li{
 	display: inline-block;
-	padding: 10px 12px;
+	padding: 22px 12px;
 }
 #menu-principal ul li .cotizador{
 	background: #FF4C21;
@@ -211,8 +217,15 @@ body {
 	color: #fff;
 	font-family: 'oxygenregular';
 	padding: 0 8px;
+	transition: .5s;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
 }
-/* start main_btm */
+#menu-principal ul li a:hover{
+	background: #FF4C21;
+}
 .container h2{
 	color:#4D4D4D;
 	font-size: 2em;
@@ -720,9 +733,14 @@ h2{
 }
 .copy p a {
 	color: #FFF;
+	transition: .5s;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
 }
 .copy p a:hover {
-	color: #1BBC9B;
+	color: #000;
 }
 #toTop {
 	display: none;
