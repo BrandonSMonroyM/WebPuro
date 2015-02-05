@@ -174,13 +174,13 @@ body {
 }
 .da-slide .da-link:hover
 {
-	background:#01CAA1;
+	background:#ff4c21;
 }
 .da-img{
 	width: 50px;
 	height: 50px;
 	display: block;
-	margin: 2em auto 1em;
+	margin: 1em auto 2em;
 	background: url(../images/buttonimg.png);
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
@@ -208,7 +208,7 @@ body {
 }
 .menu-principal ul li{
 	display: inline-block;
-	padding: 22px 12px;
+	padding: 10px 12px;
 }
 .menu-principal ul li .cotizador{
 	background: #FF4C21;
@@ -267,7 +267,7 @@ body {
 	height: auto;
 	margin-bottom: auto;
 	margin-top:0;
-	padding-bottom: 12px;
+	padding-bottom: 5px;
 	text-align: center;
 	width: 100%;
 }
@@ -331,7 +331,7 @@ hr{
 		
 }
 .algunos{
-	margin: 0 auto;
+	margin: 1em auto;
 	width: 80%;
 }
 
@@ -363,7 +363,7 @@ h2{
 	font-weight: 900
 }
 .tms{
-	height: 60px;
+	height: 50px;
 	width: auto;
 }
 .logos:hover{
@@ -507,12 +507,12 @@ h2{
 {
 	width:90%;
 	margin: 0 auto;
-	margin-top: -165px;
+	margin-top: -30px;
 }
 .s-wp{
 	background : url("../images/banners/soluciones_webpuro.net.jpg");
 	background-size: cover;
-	height : 280px;
+	height : 528px;
 	margin : -78px 0 0 0;
 	width : 100%;
 }
@@ -520,14 +520,14 @@ h2{
 	color: #fff;
 	font-family: 'bebas_neueregular';
 	font-size: 75px;
-	line-height: 360px;
+	line-height: 320px;
 }
 .s-wp #p-soluciones-web{
-	font-size: 21px;
+	font-size: 24px;
 	font-family: 'bebas_neueregular';
 	width: 50%;
 	margin: auto;
-	margin-top: -120px;
+	margin-top: -75px;
 }
 .grid
 {
@@ -535,6 +535,8 @@ h2{
 	float: left;
 	background: #FF4C21;
 	border-radius: 4% 4% 0 0;
+	height: 540px;
+	font-family: 'bebas_neueregular';
 }
 .dc_zoom_css span.roll_css6:hover {
 	-moz-transition-duration: 1s;
@@ -567,8 +569,8 @@ h2{
 }
 .desc h3{
 	color      : #fff;
-	font-family: 'oxygenregular';
-	font-size  : 1.4em;
+	font-family: 'bebas_neueregular';
+	font-size  : 3em;
 	margin-top : 15px;
 }
 .desc p:nth-child(2)
@@ -584,18 +586,28 @@ h2{
 {
 	color      :#fff;
 	font-family: 'oxygenregular';
-	font-size  :1.02em;
-	line-height: 1.9em;
+	font-weight: normal;
+	font-size  :1.3em;
+	line-height: 1.5em;
 	padding    : 1em 1em 2em 1em;
 	text-align : center;
 }
 /**********end-about-style**********/
+.ver{
+	background: #960000;
+	color: #fff;
+	border-radius: 10%;
+	padding: 10px;
+	margin-bottom: 1em;
+	
+	
+}
 
 /***********  Contact Form  *************/
 .col{
 	display: block;
 	float:left;
-	margin: 4% 0 4% 1.6%;
+	margin: 2% 0 -3% 1.6%;
 }
 .col:first-child{
 	margin-left:0;
@@ -617,9 +629,9 @@ h2{
 }
 .contact h2{
 	color:#fff;
-	font-family: 'oxygenregular';
-	font-size:2em;
-	padding: 2em 0em 0.7em 0em;
+	font-family: 'bebas_neueregular';
+	font-size:4em;
+	padding: 1em 0em 0.7em 0em;
 	text-align: center;
 }
 .contact h4{
@@ -675,7 +687,7 @@ h2{
 {
 	font-family: 'bebas_neueregular';
 	color:#fff;
-	padding: 0.8em 1.5em;
+	padding: 0.2em 1em;
 	background: #BA1910;
 	border:1px solid #BA1910;
 	display: block;
@@ -685,11 +697,11 @@ h2{
 	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 	cursor: pointer;
-	font-size: 20px;
+	font-size: 35px;
 	outline: none;
 	text-transform: uppercase;
 	float: right;
-	margin-right: 45%;	
+	margin-right: 44%;	
 }
 
 .company_address p{
@@ -747,7 +759,7 @@ h2{
 	-webkit-transition: .5s;
 }
 .copy p a:hover {
-	color: #000;
+	color: #1bbc9b;
 }
 #toTop {
 	display: none;
@@ -892,7 +904,7 @@ h2{
 /******/
 @media only screen and (max-width:1280px) and (min-width:1024px){
 	.wrap {
-	width:85%;
+	width:100%;
 }
 #filters {
 	width: 64%;
