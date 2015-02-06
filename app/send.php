@@ -1,5 +1,5 @@
 <?php
-require '../PHPMailer/PHPMailerAutoload.php';
+require './PHPMailer/PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
 $to = "frontend@webpuro.net"; // Nuestro correo de contacto
@@ -24,7 +24,5 @@ else:
 
 	$mail->CharSet = 'UTF-8';
 	$mail->send();
-
 endif;
-
 ?>
