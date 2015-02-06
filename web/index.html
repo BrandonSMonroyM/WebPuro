@@ -15,6 +15,7 @@
 <!-- start gallery Script -->
 	<script type="text/javascript" src="web/js/jquery.easing.min.js"></script>	
 	<script type="text/javascript" src="web/js/jquery.mixitup.min.js"></script>
+	<script type="text/javascript" src="web/js/custom.js"></script>
 	
 				<script type="text/javascript">
 				/*$(function () {
@@ -246,7 +247,7 @@
 		<div class="section group">
 			  <div class="col span_2_of_3">
 				  <div class="contact-form">
-				  	  <form method="post" id="fcontacto" action="app/send.php">
+				  	  <form method="post" id="fcontacto" name="fcontacto" action="./">
 					    		<input type="text" class="textbox" name="nombre" placeholder="Nombre">
 						    	<input type="text" class="email" name="email" placeholder="Email" >
 						    	<div class="clear"></div>
@@ -258,6 +259,7 @@
 						    </div>
 						  <span><input type="submit" class="" value="Enviar"></span>
 						  <div class="clear"></div>
+						  <div id="respuesta" style="display: none;"></div>
 					    </form>
 				  </div>
   				</div>
