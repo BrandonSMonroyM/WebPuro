@@ -196,6 +196,7 @@ body {
 }
 .menu-principal{
 	width: 100%;
+	height: 20px;
 }
 .menu-principal img{
 	float: left;
@@ -623,10 +624,9 @@ p{
 .col{
 	display: block;
 	float:left;
-	margin: 2% 0 -3% 1.6%;
 }
 .col:first-child{
-	margin-left:8%;
+	
 }	
 .span_2_of_3 {
 	width: 100%;
@@ -684,7 +684,7 @@ p{
 .contact-form textarea{
 	padding: 15px;
 	display: block;
-	width: 80%;
+	width: 93.5%;
 	background:#fff;
 	border: none;
 	outline: none;
@@ -718,7 +718,7 @@ p{
 	outline: none;
 	text-transform: uppercase;
 	float: right;
-	margin-right: 50%;	
+	margin-right: 43.3%;	
 }
 
 .company_address p{
@@ -912,7 +912,7 @@ p{
 		margin: 0% 2%;
 	}
 	.contact-form input[type="text"]{
-		width: 37.4%;
+		width: 44%;
 		border-radius: 10px;
 	}
 	.dc_zoom_css span.roll_css6 .social {
@@ -1015,11 +1015,12 @@ padding: 0.5em 0.7em;
 	width: 92%;
 }
 .col {
-	margin: 4% 0 4% 4%;
+	
 }
 
 .span_2_of_3 {
-	width: 63%;
+	width: 90%;
+	margin: 0px 0px 0 60px;
 }
 }
 @media only screen and (max-width: 768px) {
@@ -1041,12 +1042,15 @@ padding: 0.5em 0.7em;
 #filters {
 	width:100%;
 }
+.contact-form form input[type="submit"] {
+margin-right: 37%;
+}
 #portfoliolist .portfolio {
 	width: 31%;
 	margin: 0% 1%;
 }
 .contact-form input[type="text"]{
-	width: 33.8%;
+	width: 94%;
 }
 /****/
 .header {
@@ -1054,6 +1058,19 @@ padding: 0.5em 0.7em;
 }
 .nav > ul > li > a {
 padding: 0.5em 0.7em;
+}
+.tienda {
+	float: left;
+	margin-left: 0;
+	margin-top: auto;
+	width: 100%;
+}
+.planes {
+	display: inline-block;
+	float: right;
+	margin-right: 0;
+	margin-top: auto;
+	width: 100%;
 }
 #portfoliolist>div{
 	display:none;
@@ -1090,17 +1107,20 @@ padding: 0.5em 0.7em;
 	padding: 3% 0% 1% 0%;
 }
 .grid {
-	width: 45%;
+	border-radius: 0 0 0 0;
+	height: auto;
 	margin-right: 10%;
+	margin-top: 6px;
+	width: 100%;
 }
 .grid:nth-child(2) {
 	margin-right: 0%;
 }
 .grid:nth-child(3) {
-	display: none;
+	display: block;
 }
 .contact-form textarea {
-	width: 78%;
+	width: 94%;
 }
 .span_2_of_3 {
 	width: 100%;
@@ -1121,9 +1141,9 @@ padding: 0.5em 0.7em;
 .company_address {
 	padding: 5% 0%;
 }
-.contact-form form input[type="submit"] {
-	float: left;
-}
+/*.contact-form form input[type="submit"] {
+	
+}*/
 .company_address p {
 	font-size: 1em;
 	margin-bottom: 0%;
@@ -1148,7 +1168,8 @@ padding: 0.5em 0.7em;
 	margin: 0% 5%;
 }
 .contact-form input[type="text"]{
-	width:40.5%;
+	margin-bottom: 8px;
+	width: 92%;
 }
 /****/
 .header {
@@ -1192,14 +1213,14 @@ padding: 3em 0em;
 	display:none;
 }
 .grid {
-	width: 45%;
+	width: 100%;
 	margin-right: 10%;
 }
 .grid:nth-child(2) {
 	margin-right: 0%;
 }
 .grid:nth-child(3) {
-	display: none;
+	display: block;
 }
 .contact-form textarea {
 	width: 92%;
@@ -1243,8 +1264,8 @@ padding: 3em 0em;
 	width: 82%;
 }
 .contact-form form input[type="submit"] {
-	margin-right: 2%;
-	float: left;
+	float: right;
+	margin-right: 38%;
 }
 .contact-form {
 	padding-bottom: 0px;
