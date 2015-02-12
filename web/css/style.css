@@ -966,6 +966,9 @@ p{
 .contact-form form input[type="submit"] {
 	margin-right: 40%;
 }
+.Redes {
+	width: 25%;
+}
 .menu-principal ul {
 	width: 50%;
 }
@@ -1051,6 +1054,18 @@ margin-right: 37%;
 }
 .contact-form input[type="text"]{
 	width: 94%;
+}
+#Redes-contenedor {
+	float: right;
+	margin-top: 6px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 20%;
+	margin-left: 55px;
+}
+.Redes {
+	width: 32%;
 }
 /****/
 .header {
@@ -1171,6 +1186,18 @@ padding: 0.5em 0.7em;
 	margin-bottom: 8px;
 	width: 92%;
 }
+#Redes-contenedor {
+	float: right;
+	margin-top: 6px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 20%;
+	margin-left: 30px;
+}
+.Redes {
+	width: 40%;
+}
 /****/
 .header {
 	padding: 4% 0%;
@@ -1275,7 +1302,20 @@ padding: 3em 0em;
 /******/
 @media only screen and (max-width:480px) and (min-width:320px){
 .wrap{
-		width:90%;
+		width:100%;
+}
+.tienda {
+	float: left;
+	margin-left: 0;
+	margin-top: auto;
+	width: 100%;
+}
+.planes {
+	display: inline-block;
+	float: right;
+	margin-right: 0;
+	margin-top: auto;
+	width: 100%;
 }
 .logo {
 	float: none;
@@ -1358,7 +1398,7 @@ padding: 3em 1em;
 	margin-right: 0%;
 }
 .grid:nth-child(3),.grid:nth-child(2)  {
-	display: none;
+	display: block;
 }
 .contact-form textarea {
 	width: 92%;
@@ -1419,7 +1459,7 @@ font-size: 1.8em;
 /******/
 @media only screen and (max-width:320px) and (min-width:240px){
 .wrap{
-		width:90%;
+		width:100%;
 }
 .logo {
 	float: none;
