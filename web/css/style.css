@@ -901,29 +901,30 @@ p{
 }
 /******/
 @media only screen and (max-width:1366px) and (min-width:1280px){
-.wrap {
-	width:100%;
-}
-#filters {
-	width: 65%;
-}
-#portfoliolist .portfolio {
-	width: 20%;
-	margin: 0% 2%;
-}
-.contact-form input[type="text"]{
-	width: 37.4%;
-	border-radius: 10px;
-}
-.dc_zoom_css span.roll_css6 .social {
-	width: 57%;
-}
-.dc_zoom_css span.roll_css6 .social {
-	width: 56%;
-}
-.dc_zoom_css span.roll_css6 .social {
-	width: 57%;
-}
+	.wrap {
+		width:100%;
+	}
+	#filters {
+		width: 65%;
+	}
+	#portfoliolist .portfolio {
+		width: 20%;
+		margin: 0% 2%;
+	}
+	.contact-form input[type="text"]{
+		width: 37.4%;
+		border-radius: 10px;
+	}
+	.dc_zoom_css span.roll_css6 .social {
+		width: 57%;
+	}
+	.dc_zoom_css span.roll_css6 .social {
+		width: 56%;
+	}
+	.dc_zoom_css span.roll_css6 .social {
+		width: 57%;
+	}
+
 }
 /******/
 @media only screen and (max-width:1280px) and (min-width:1024px){
@@ -946,8 +947,27 @@ p{
 }
 /******/
 @media only screen and (max-width:1024px) and (min-width:768px){
+.slider_bg {
+	height: 659px;
+}
+#Logo-WP{
+	margin-top: 100px;
+}
+.descripcion{
+	height: 240px;
+}
 .wrap {
 	width: 100%;
+}
+#fcontacto{
+	margin: auto;
+	width: 100%;
+}
+.contact-form form input[type="submit"] {
+	margin-right: 40%;
+}
+.menu-principal ul {
+	width: 50%;
 }
 #filters {
 	width:76%;
@@ -957,7 +977,8 @@ p{
 	margin: 0% 1%;
 }
 .contact-form input[type="text"]{
-	width: 40.3%;
+	width: 92%;
+	margin-bottom: 10px;
 }
 /****/
 .header {
@@ -979,6 +1000,10 @@ padding: 0.5em 0.7em;
 }
 .da-slide {
 	padding: 6% 0%;
+	text-align: center;
+}
+.grid{
+	height: 650px;
 }
 .dc_zoom_css span.roll_css6 .social {
 	width: 67%;
@@ -997,11 +1022,21 @@ padding: 0.5em 0.7em;
 	width: 63%;
 }
 }
-
+@media only screen and (max-width: 768px) {
+	.menu-principal ul{
+		width: 70%;
+	}
+	.menu-principal ul li {
+		padding: 17px 12px;
+	}
+	.menu-principal img{
+		width: 20%;
+	}
+}
 /******/
 @media only screen and (max-width:768px) and (min-width:640px){
 .wrap{
-		width:90%;
+		width:100%;
 }
 #filters {
 	width:100%;
@@ -1011,7 +1046,7 @@ padding: 0.5em 0.7em;
 	margin: 0% 1%;
 }
 .contact-form input[type="text"]{
-	width: 42.8%;
+	width: 33.8%;
 }
 /****/
 .header {
@@ -1065,7 +1100,7 @@ padding: 0.5em 0.7em;
 	display: none;
 }
 .contact-form textarea {
-	width: 95%;
+	width: 78%;
 }
 .span_2_of_3 {
 	width: 100%;
@@ -1103,7 +1138,7 @@ padding: 0.5em 0.7em;
 /******/
 @media only screen and (max-width:640px) and (min-width:480px){
 .wrap{
-		width:90%;
+		width:100%;
 }
 #filters {
 	width:100%;
