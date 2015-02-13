@@ -288,6 +288,40 @@ body {
 	color: #fff;
 	padding: 6px;
 }
+/****SLIDER****/
+.container{
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.left, .right{
+	position: absolute;
+	top: 50%;
+	font-size: 4em;
+	height: 50%;
+	border: none;
+	color: #ff4c21;
+	background-color: #00ccc5;
+	border-radius: 100px;
+}
+.left{
+	left: 0px;
+}
+.right{
+	right: 0px;
+}
+.container .slideContainer .slide{
+	display: inline-block;
+	margin-right: -4px;
+	vertical-align: 100%;
+	background-repeat: no-repeat;
+	background-position: 20%;
+	
+}
+
+/****SLIDER_FIN****/
+
 .Titulo_Plan{
 	font-family: 'bebas_neueregular';
 	font-size: 36px;
