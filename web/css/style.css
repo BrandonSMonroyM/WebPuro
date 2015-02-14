@@ -397,6 +397,11 @@ em{
 a{
 	color:#000;
 }
+h1{
+	color: #ff4c21;
+	font-family: 'bebas_neueregular';
+	font-size:2.5em;
+}
 h2{
 	color: #ff4c21:
 	margin: 5px;
