@@ -280,6 +280,8 @@ body {
 .modulo{
 	float: left;
 	width: 33.3%;
+}
+.planes:hover{
 	background: rgba(0, 0, 0, 0.41);
 }
 .ver-mas{
@@ -624,8 +626,9 @@ h3{
 {
 	color      :#fff;
 	font-family: 'oxygenregular';
-	font-size  :1.5em;
-	margin     : 5px 25px 9px 25px;
+	font-size  :1.6em;
+	line-height: 1.3em;
+	margin     : 10px 25px 10px 25px;
 	padding    : 0;
 	text-align : center;
 }
@@ -1636,4 +1639,8 @@ padding: 1.2em 0em;
 #filters li:nth-child(1) {
 	margin-left: 50px;
 }
+/**Twitter**/
+.twitter-follow-button{
+	margin-left: 220px;
+	margin-bottom: 10px;
 }
