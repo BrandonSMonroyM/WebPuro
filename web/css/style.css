@@ -280,7 +280,7 @@ body {
 .modulo{
 	float: left;
 	width: 33.3%;
-	
+	background: rgba(0, 0, 0, 0.41);
 }
 .ver-mas{
 	background: #BA1910;
@@ -295,7 +295,7 @@ body {
 	margin: 0 auto;
 	overflow: hidden;
 }
-.left, .right{
+/***.left, .right{
 	position: absolute;
 	top: 50%;
 	font-size: 4em;
