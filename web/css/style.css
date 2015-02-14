@@ -11,6 +11,18 @@
 }
 
 @font-face {
+    font-family: 'z_aristaregular';
+    src: url('../fonts/Arista/z_arista-webfont.eot');
+    src: url('../fonts/Arista/z_arista-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Arista/z_arista-webfont.woff2') format('woff2'),
+         url('../fonts/Arista/z_arista-webfont.woff') format('woff'),
+         url('../fonts/Arista/z_arista-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
     font-family: 'oxygenregular';
     src: url('../fonts/Oxygen/oxygen-webfont.eot');
     src: url('../fonts/Oxygen/oxygen-webfont.eot?#iefix') format('embedded-opentype'),
@@ -295,7 +307,7 @@ body {
 	margin: 0 auto;
 	overflow: hidden;
 }
-/***.left, .right{
+#left, #right{
 	position: absolute;
 	top: 50%;
 	font-size: 4em;
@@ -305,10 +317,10 @@ body {
 	background-color: #00ccc5;
 	border-radius: 100px;
 }
-.left{
+#left{
 	left: 0px;
 }
-.right{
+#right{
 	right: 0px;
 }
 .container .slideContainer .slide{
