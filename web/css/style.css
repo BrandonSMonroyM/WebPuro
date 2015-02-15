@@ -37,6 +37,7 @@
 #Logo-WP
 {
 	width: 42%;
+	text-align: center;
 }
 .header{
 	background: #1c1515;
@@ -397,6 +398,13 @@ em{
 	color: #F44F16;
 	font-size: 60px;
 }
+.line{
+	border-bottom: 2px solid;
+	border-color: #b3afd4;
+	width: 75%;
+	margin-left: 12.5%;
+}
+
 .logos{
 	padding: 10px;
 	width: 20%;
@@ -410,9 +418,10 @@ a{
 	color:#000;
 }
 h1{
-	color: #ff4c21;
-	font-family: 'bebas_neueregular';
-	font-size:2.5em;
+	color: #fff;
+	font-family: 'z_aristaregular';
+	font-size:2em;
+	text-align: center;
 }
 h2{
 	color: #ff4c21:
@@ -429,7 +438,7 @@ h3{
 	color: #ff4c21;
 }
 .tms{
-	height: 50px;
+	height: 60px;
 	width: auto;
 }
 .logos:hover{
