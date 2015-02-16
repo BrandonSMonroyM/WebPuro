@@ -2,7 +2,7 @@
 require './PHPMailer/PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
-$to = "frontend@webpuro.net"; // Nuestro correo de contacto
+$to = "soporte@webpuro.net"; // Nuestro correo de contacto
 
 // recogeremos los datos del formulario
 $nombre = $_POST['nombre'];

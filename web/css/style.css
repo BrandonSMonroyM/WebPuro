@@ -725,17 +725,17 @@ p{
 }
 .contact h5{
 	color:#fff;
-	font-size:1em;
+	font-size:2em;
 	padding-bottom: 2em;
 }
 .contact-form input[type="text"],.contact-form textarea{
 	padding: 15px;
 	display: block;
-	width: 43%;
+	
 	background:#fff;
 	outline: none;
 	color:#888282;
-	font-size: 0.8125em;
+	font-size: 1.2em;
 	-webkit-appearance: none;
 	float:left;
 	margin-right: 2em;
@@ -743,6 +743,20 @@ p{
 	font-style: italic;
 	border: 2px solid #CACACA;
 }
+.contact-form input[type="tel"]{
+	padding: 15px;
+	display: block;
+	background:#fff;
+	outline: none;
+	color:#888282;
+	font-size: 1.2em;
+	-webkit-appearance: none;
+	margin-right: 2em;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	border: 2px solid #CACACA;
+}
+
 .contact-form input[type="text"]:nth-child(2)
 {
 	margin-right: 0em;
@@ -978,7 +992,11 @@ p{
 		margin: 0% 2%;
 	}
 	.contact-form input[type="text"]{
-		width: 44%;
+		width: 43.5%;
+		border-radius: 10px;
+	}
+	.contact-form input[type="tel"]{
+		width: 43.5%;
 		border-radius: 10px;
 	}
 	.dc_zoom_css span.roll_css6 .social {
