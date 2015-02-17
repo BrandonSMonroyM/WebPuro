@@ -1465,6 +1465,12 @@ padding: 3em 1em;
 .gallery1 {
 	padding: 2em 0em;
 }
+.descripcion{
+	height: 235px;
+}
+.Titulo_Plan{
+	font-size: 30px;
+}
 #portfoliolist>.hide
 {
 	display: block;
@@ -1476,6 +1482,7 @@ padding: 3em 1em;
 	width: 100%;
 	margin-right: 0%;
 	float: none;
+	border-radius: 0px;
 	margin-bottom: 10%;
 }
 .grid:nth-child(2) {
@@ -1526,8 +1533,9 @@ padding: 3em 1em;
 	width: 82%;
 }
 .contact-form form input[type="submit"] {
-	margin-right: 2%;
 	float: left;
+	margin-left: 28%;
+
 }
 .contact-form {
 	padding-bottom: 0px;
@@ -1626,7 +1634,7 @@ padding: 1.2em 0em;
 	margin-right: 0%;
 }
 .grid:nth-child(3),.grid:nth-child(2)  {
-	display: none;
+	display: block;
 }
 .contact-form textarea {
 	width:87%;
@@ -1690,4 +1698,15 @@ padding: 1.2em 0em;
 .twitter-follow-button{
 	margin-left: 220px;
 	margin-bottom: 10px;
+}
+.footer-bottom {
+	height: 72px;
+}
+#Redes-contenedor{
+	margin-right: 16px;
+	margin-top: 75px;
+	width: 218px;
+}
+#Redes-contenedor br{
+	display: none;
 }
