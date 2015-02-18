@@ -427,14 +427,14 @@ h1{
    -moz-text-shadow: 2px 2px 2px #000;
 }
 h2{
-	color: #ff4c21:
+	color: #ff4c21;
 	margin: 5px;
 	padding: 5px 5px;
-	font-weight: 900
+	font-weight: 900;
 }
 h3{
 	font-size: 3em;
-	padding: 0 0 0.2em 0em;
+	padding: 0 0 0em 0em;
 	text-align: center;
 }
 .color-n {
@@ -1451,7 +1451,7 @@ margin-bottom: 1.5em;
 	font-size: 0.9em;
 }
 .da-img {
-	margin: 1em auto 1em;
+	margin: 0em auto 1em;
 }
 .da-slide {
 	padding: 4%  0%;
@@ -1460,7 +1460,7 @@ margin-bottom: 1.5em;
 padding: 3em 1em;
 }
 .about p {
-	padding-bottom: 2em;
+	padding-bottom: 1em;
 }
 .gallery1 {
 	padding: 2em 0em;
@@ -1561,6 +1561,13 @@ font-size: 1.8em;
 	float: none;
 	margin-top: 0.4em;
 	text-align:left;
+}
+.s-wp #soluciones-web {
+	line-height: 82px;
+}
+.s-wp #p-soluciones-web{
+	width: 66%;
+	margin-top: 10px;
 }
 #filters {
 	width:100%;
