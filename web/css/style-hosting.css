@@ -52,7 +52,10 @@ body{
 	background:#fff;
 	min-width:1002px;
 	-webkit-text-size-adjust:100%;
-	-ms-text-size-adjust: none;
+	-moz-text-size-adjust:100%;
+	-o-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	text-size-adjust:100%;
 }
 .logo{
 	float: left;
@@ -79,6 +82,9 @@ body{
 }
 h1{
 	font-size: 1em;
+}
+h2{
+	font-size: 18px;
 }
 /******start-nav********/
 .nav {
@@ -430,7 +436,7 @@ a{text-decoration:none;}
 .table .icon{
 	width:17px;
 	height:17px;
-	background:url(images/ayuda.png) no-repeat;
+	background:url(../images/ayuda.png) no-repeat;
 	text-indent:-9999px;
 	overflow:hidden;
 	display:block;
@@ -583,7 +589,7 @@ a{text-decoration:none;}
 	left:0;
 	width:6px;
 	height:6px;
-	background:url(../images/ayuda.png) no-repeat -252px -585px;
+	background:url(../images/ayuda.png) no-repeat;
 }
 .supported .item p{
 	margin:0;
