@@ -648,7 +648,7 @@ h3{
 .desc h3{
 	color      : #fff;
 	font-family: 'bebas_neueregular';
-	font-size  : 3em;
+	font-size : 3em;
 	margin-top : 15px;
 }
 .desc p:nth-child(2)
@@ -685,7 +685,7 @@ h3{
 /***********  Contact Form  *************/
 p{
 	color: #FFF;
-	display: inline-block
+	display: inline-block;
 }
 .col{
 	display: block;
