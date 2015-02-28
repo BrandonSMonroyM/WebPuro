@@ -125,11 +125,11 @@ h2{
 }
 .left{
 	float: left;
-	margin-left: 10%;
+	margin-left: 5%;
 }
 .right{
 	float: right;
-	margin-right: 10%;
+	margin-right: 5%;
 }
 nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
