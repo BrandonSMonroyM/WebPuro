@@ -102,7 +102,7 @@ body {
 }
 /******start-nav********/
 .nav {
-	float: right;
+	float: left;
 	width: 100%;
 	position: relative;
 	 background: #1c1515;
@@ -486,12 +486,13 @@ h3{
 }
 /*---start-gallery-----*/
 .gallery{
-	position: relative;
-	margin: 0px auto;
-	width: 100%;
-	height: auto;
 	background: #363636;
+	height: auto;
+	margin-top: 85px;
+	margin: 0px auto;
 	overflow: hidden;
+	position: relative;
+	width: 100%;
 }
 .gallery1 {
 	padding: 4em 0em;
