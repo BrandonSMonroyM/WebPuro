@@ -872,7 +872,7 @@ p{
 /*--footer--*/
 .footer-bottom {
 	background: #FF4C21;
-	height: 65px;
+	height: 80px;
 	padding: 25px 0;
 	position: relative;
 }
@@ -1062,94 +1062,121 @@ p{
 }
 /******/
 @media only screen and (max-width:1024px) and (min-width:768px){
-.slider_bg {
-	height: 659px;
-}
-#Logo-WP{
-	margin-top: 100px;
-}
-.descripcion{
-	height: 240px;
-}
-.wrap {
-	width: 100%;
-}
-#fcontacto{
-	margin: auto;
-	width: 100%;
-}
-.contact-form form input[type="submit"] {
-	margin-right: 40%;
-}
-.Redes {
-	width: 25%;
-}
-.menu-principal ul {
-	width: 50%;
-}
-#filters {
-	width:76%;
-}
-#portfoliolist .portfolio {
-	width:22%;
-	margin: 0% 1%;
-}
-.contact-form input[type="text"]{
-	width: 92%;
-	margin-bottom: 10px;
-}
-/****/
-.header {
-	/*padding: 4% 0%;*/
-}
-.nav > ul > li > a {
-padding: 0.5em 0.7em;
-}
 
-.da-slide p {
-	width: 100%;
-}
-.da-slide h2 {
-	font-size: 2.6em;
-}
-.da-slide .da-link {
-	width: 13%;
-	padding: 0.8em 2em;
-}
-.da-slide {
-	padding: 6% 0%;
-	text-align: center;
-}
-.grid{
-	height: 650px;
-}
-.dc_zoom_css span.roll_css6 .social {
-	width: 67%;
-	height: 19%;
-	left: 17%;
-	top: 20%;
-}
-.contact-form textarea {
-	width: 92%;
-}
-.col {
-	
-}
+	.slider_bg {
+		height: 659px;
+	}
+	#Logo-WP{
+		margin-top: 100px;
+		width: 60%;
+	}
+	.descripcion{
+		height: 240px;
+	}
+	.wrap {
+		width: 100%;
+	}
+	#fcontacto{
+		margin: auto;
+		width: 100%;
+	}
+	.contact-form form input[type="submit"] {
+		margin-right: 40%;
+	}
+	.copy p {
+		line-height: 65px;
+	}
+	.Redes {
+		width: 25%;
+	}
+	.menu-principal ul {
+		width: 58%;
+	}
+	.menu-principal img {
+		width: 17%;
+	}
+	#filters {
+		width:76%;
+	}
+	#portfoliolist .portfolio {
+		width:22%;
+		margin: 0% 1%;
+	}
+	.contact-form input[type="text"]{
+		width: 92%;
+		margin-bottom: 10px;
+	}
+	.contact-form input[type="tel"]{
+		width: 92%;
+		margin-bottom: 10px;
+	}
+	/****/
+	.header {
+		/*padding: 4% 0%;*/
+	}
+	.nav > ul > li > a {
+	padding: 0.5em 0.7em;
+	}
 
-.span_2_of_3 {
-	width: 90%;
-	margin: 0px 0px 0 60px;
-}
+	.da-slide p {
+		width: 100%;
+	}
+	.da-slide h2 {
+		font-size: 2.6em;
+	}
+	.da-slide .da-link {
+		width: 13%;
+		padding: 0.8em 2em;
+	}
+	.da-slide {
+		padding: 6% 0%;
+		text-align: center;
+	}
+	.grid{
+		height: 650px;
+	}
+	.dc_zoom_css span.roll_css6 .social {
+		width: 67%;
+		height: 19%;
+		left: 17%;
+		top: 20%;
+	}
+	.contact-form textarea {
+		width: 92%;
+	}
+	.col {
+		
+	}
+
+	.span_2_of_3 {
+		width: 90%;
+		margin: 0px 0px 0 60px;
+	}
 }
 @media only screen and (max-width: 768px) {
 	.menu-principal ul{
-		width: 70%;
+		width: 76%;
 	}
 	.menu-principal ul li {
 		padding: 17px 12px;
 	}
 	.menu-principal img{
 		width: 20%;
+	}
+	.nav > ul{
+		margin-top: -1%;
+	}
+	.nav > ul > li > a{
+		font-size: 16px;
+	}
+	.logo-blanco img{
+		margin-top: -15px;
+	}
+	.boton a{
+		margin: 0px 29%;
+	}
+	.contact-form input[type="tel"]{
+		width: 94%;
 	}
 }
 /******/
@@ -1301,6 +1328,10 @@ padding: 0.5em 0.7em;
 	margin-bottom: 8px;
 	width: 92%;
 }
+.contact-form input[type="tel"]{
+	margin-bottom: 8px;
+	width: 92%;
+}
 #Redes-contenedor {
 	float: right;
 	margin-top: 6px;
@@ -1419,6 +1450,18 @@ padding: 3em 0em;
 .wrap{
 		width:100%;
 }
+#Logo-WP {
+	width: 60%;
+	text-align: center;
+	margin-left: 21%;
+}
+.menu-principal img {
+	width: 45%;
+	margin: 0px 26%;
+}
+nav.nav {
+	height: 180px;
+}
 .tienda {
 	float: left;
 	margin-left: 0;
@@ -1444,12 +1487,33 @@ padding: 3em 0em;
 #filters {
 	width:100%;
 }
+.salto{
+	display: none;
+}
+#Redes-contenedor {
+	float: right;
+	margin-top: 15%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 46%;
+	margin-left: 30%;
+}
+.Redes {
+	width: 20%;
+}
+.boton a{
+	margin: 0px 12%;
+}
 #portfoliolist .portfolio {
 	width: 48%;
 	margin: 0% 1%;
 }
 .contact-form input[type="text"]{
 	width:92%;
+}
+.contact-form input[type="tel"] {
+	width: 92%;
 }
 .contact-form input[type="text"]:nth-child(1) {
 margin-bottom: 1.5em;
@@ -1580,7 +1644,7 @@ font-size: 1.8em;
 }
 }
 /******/
-@media only screen and (max-width:320px) and (min-width:240px){
+@media only screen and (max-width:320px) and (min-width:480px){
 	.wrap{
 			width:100%;
 	}
@@ -1603,6 +1667,7 @@ font-size: 1.8em;
 	.contact-form input[type="text"]{
 		width:87%;
 	}
+
 	/****/
 	.header {
 		padding: 0.5em 0em;
