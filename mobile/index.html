@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+	<title>WebPuro | Desarrolo Web</title>
+	<link rel="shortcut icon" href="web/images/favicon.ico" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="Description" content="Planes Web profesionales totalmente integrados, Dominio, Hosting, Diseño" />
+	<meta name="Keywords" content="Planes Web, Dominio,Hosting, Diseño, Web, Páginas, Páginas Web, Servicios Web">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+	<link href="https://plus.google.com/102853509691624974633" rel="publisher" />
+	<link href="web/css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="stylesheet" type="text/css" href="web/css/imgeffect.css" />
+	<link rel="stylesheet" type="text/css" href="web/css/style.css" />
+	<script src="web/js/jquery.min.js"></script>
+
+
+	<script type="text/javascript" async defer
+  	src="https://apis.google.com/js/platform.js?publisherid=102853509691624974633">
+	</script>
+
+
+
+
+<!-- start gallery Script -->
+	<script type="text/javascript" src="web/js/jquery.easing.min.js"></script>	
+	<script type="text/javascript" src="web/js/jquery.mixitup.min.js"></script>
+	<script type="text/javascript" src="web/js/custom.js"></script>
+	
+				<script type="text/javascript">
+				/*$(function () {
+					var filterList = {
+						init: function () {
+							$('#portfoliolist').mixitup({
+								targetSelector: '.portfolio',
+								filterSelector: '.filter',
+								effects: ['fade'],
+								easing: 'snap',
+								onMixEnd: filterList.hoverEffect()
+							});
+						},
+						hoverEffect: function () {
+							// Simple parallax effect
+							$('#portfoliolist .portfolio').hover(
+								function () {
+									$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+									$(this).find('img').stop().animate({top: 0}, 500, 'easeOutQuad');
+								},
+								function () {
+									$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeInQuad');
+									$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+								}		
+							);
+						}
+					};
+					filterList.init();
+				});	*/
+				</script>
+				<script src="web/js/jquery.magnific-popup.js" type="text/javascript"></script>
+				<link href="web/css/magnific-popup.css" rel="stylesheet" type="text/css">
+						<script>
+							/*$(document).ready(function() {
+								$('.popup-with-zoom-anim').magnificPopup({
+									type: 'inline',
+									fixedContentPos: false,
+									fixedBgPos: true,
+									overflowY: 'auto',
+									closeBtnInside: true,
+									preloader: false,
+									midClick: true,
+									removalDelay: 300,
+									mainClass: 'my-mfp-zoom-in'
+							});
+						});*/
+						</script>
+				<script type="text/javascript" src="web/js/move-top.js"></script>
+				<script type="text/javascript" src="web/js/easing.js"></script>
+				<!--end gallery- -->
+		   	<script type="text/javascript">
+				jQuery(document).ready(function($) {
+					$(".scroll").click(function(event){		
+						event.preventDefault();
+						$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+					});
+				});
+			</script>
+			<script type="text/javascript">
+				$(document).ready(main);
+
+var contador = 1;
+
+function main (){
+	$('.menu_bar').click(function(){
+		// $('nav').toggle(); Forma Sencilla de aparecer y desaparecer
+		
+		if (contador == 1){
+			$('.nav-responsive').animate({
+				left: '0'
+			});
+			contador = 0;
+		} else {
+			contador = 1;
+			$('.nav-responsive').animate({
+				left: '-100%'
+			});
+		};
+		
+	});
+};
+			</script>
+    <!-- Insert to your webpage before the </head> -->
+    <!-- <script src="web/carouselengine/jquery.js"></script> -->
+    <script src="web/carouselengine/amazingcarousel.js"></script>
+    <link rel="stylesheet" type="text/css" href="web/carouselengine/initcarousel-1.css">
+    <script src="web/carouselengine/initcarousel-1.js"></script>
+    <!-- End of head section HTML codes -->
+</head>
+<body>
+	
+		<!-- start slider -->
+<div class="slider_bg" id="home">
+		<div class="wrap">
+		<div class="menu_bar">
+			<a class="bt-menu" href="#"><img src="web/images/MOCKUP-WP-LOGO.png" width="22px" alt="menu"></span><img class="nav-icon" src="web/images/nav-icon.png" width="22px" alt="menu">WebPuro.net</a>
+		</div>
+
+		<nav class="nav-responsive">
+			<ul>
+				<li><a href="#portfolio" class="scroll">PLANES</a></li>
+				<li><a href="#productos" class="scroll">PRODUCTOS</a></li>
+				<li><a href="#contact" class="scroll">ATENCIÓN</a></li>
+				<li><a href="http://webpuro.net/planes-hosting.html" target="_blank" >HOSTING</a></li>
+				<li><a href="#servicios" class="scroll">SERVICIOS</a></li>
+				<li><a href="#casos" class="scroll">CLIENTES</a></li>
+				<li><a href="#redes" class="scroll">REDES</a></li>
+			</ul>
+		</nav>
+				<!---start-da-slider- -->
+						<nav class="menu-principal">
+							<img src="web/images/MOCKUP-WP-LOGO-PRINCIPAL.png" alt="WebPuro.net">
+							<ul>
+								<li><a href="#portfolio" class="scroll">PLANES</a></li>
+								<li><a href="#productos" class="scroll">PRODUCTOS</a></li>
+								<li><a href="#contact" class="scroll">ATENCIÓN</a></li>
+								<li><a href="#casos" class="scroll">CLIENTES</a></li>
+								<li><a href="#redes" class="scroll">REDES</a></li>
+								<!--<li><a href="http://appcotizador.webpuro.net" target="_Blank" class="cotizador">COTIZADOR</a></li>-->
+							</ul>
+						</nav>
+						<div class="da-slide">
+								<img id="Logo-WP" src="web/images/Logo_WebPuro.png" alt="WebPuro"><h1>Diseño de páginas web en Bogotá.</h1>
+								</div>
+				<!---//End-da-slider- -->
+		</div>
+</div>
+<!---end-slider-->
+<!--start portfolio-->
+	<div class="wrap" id="portfolio">
+				<div class="header_bg">
+					<div class="wrap">
+						<div class="header">
+							<!-- start-logo -->
+							<div class="logo">
+							</div>	
+							<!-- end-logo- -->
+							<!--start-nav -->	
+							<nav class="nav">
+								<ul class="left">
+									<li><a href="#home" class="scroll">Inicio</a></li>
+									<li class="active"><a href="#portfolio" class="scroll">Planes</a></li>
+									<li><a href="#servicios" class="scroll">Servicios</a></li>
+									<li><a href="#productos" class="scroll">Productos</a></li>								   </ul>
+					   			<ul class="right">
+									<li><a href="http://webpuro.net/planes-hosting.html" target="_blank" >Hosting</a></li>
+									<li><a href="#redes" class="scroll">Redes</a></li>
+									<li><a href="#contact" class="scroll">Contacto</a></li>
+									<!-- <li class="active"><a href="">cotizador</a></li> -->
+								 
+							   	</ul>
+						   	<div class="logo-blanco">
+								<img  src="web/images/web-puro-net.png" alt="WebPuro" />
+								</div>
+							</nav>
+							</div>
+					</div>
+				</div>
+	</div>
+				<!---end-nav -->
+				<div class="main">
+					<!-- start gallery  -->
+							
+					<!--start-mfp -->	
+						<div id="small-dialog1" class="mfp-hide">
+							<div class="pop_up">
+								<h2>PLANES</h2>
+								<p class="para">PLANES DE DESARROLLO WEB.</p>
+							</div>
+						</div>
+					<!--end-mfp -->	
+			<!---start-content- -->
+			<div class="gallery">
+				<div class="tienda">		
+					<img class="tiendas" src="web/images/banners/Tiendas_Online_webpuro.net.jpg" alt="Tiendas Online">
+				</div>
+				<div class="planes">
+				<div class="modulo">
+					<img class="plan economico" src="web/images/banners/Economico_webpuro.net.jpg" alt="Economico"><section class="descripcion Visionario"><h2 class="Titulo_Plan">Ecónomico</h2><hr>
+					<p>Diseñado para el profesional moderno, activo y visible, web presentación en plan básico ideal para iniciar tu presencia en la web.</p></section>
+				</div>
+				<div class="modulo">
+					<img class="plan emprendedor" src="web/images/banners/Emprendedor_webpuro.net.jpg" alt="Emprendedor"><section class="descripcion emprendedor"><h2 class="Titulo_Plan">Emprendedor</h2><hr>
+					<p>Construido para los Emprendedores y Start Up, que deseen impulsarse y aumentar su visibilidad, tipo web catalogo-autoadministrable.</p></section>
+				</div>
+				<div class="modulo">
+					<img class="plan visionario" src="web/images/banners/Profesional_webpuro.net.jpg" alt="Profesional"><section class="descripcion ecónomico"><h2 class="Titulo_Plan">Visionario</h2><hr>
+					<p>Edificado para empresas que deseen aumentar su conversión en ventas, portal interactivo,  usabilidad y experiencia de usuario.</p></section>
+				</div>
+				</div>
+				</div>				
+					
+				<section class="algunos">
+					<h2 id="casos"><a href="#casos" class="scroll">CASOS DE<em> ÉXITO</em></a></h2>
+					<div class="Casos-de-exito">
+						<aside class="clientes up">
+							<!-- <a href="http://american-all.com/" target="_blank"><img class="logos tms" src="web/images/portafolio/american_alliance.png" alt="American Alliance"></a>
+							<a href="http://aconcaprof.com/" target="_blank"><img class="logos tms" src="web/images/portafolio/logo_aconcaprof.png" alt="Aconcaprof"></a>
+							<a href="http://www.innovarlab.com/" target="_blank"><img class="logos tms" src="web/images/portafolio/logo_Innovatorium.png" alt="Innovatorium"></a>
+							<a href="http://www.fnosteoporosis.com/" target="_blank"><img class="logos tms" src="web/images/portafolio/Logo-fn-osteoporosis.png" alt="Fundación Nacional Osteoporosis"></a> -->
+							<div id="amazingcarousel-container-1">
+    <div id="amazingcarousel-1" style="display:block;position:relative;width:100%;max-width:1200px;margin:0px auto 0px;">
+        <div class="amazingcarousel-list-container">
+            <ul class="amazingcarousel-list">
+                <li class="amazingcarousel-item">
+                    <div class="amazingcarousel-item-container">
+<div class="amazingcarousel-image"><a href="http://american-all.com" target="_blank"><img class="logos tms" src="web/images/portafolio/american_alliance.png" alt="American Alliance"/></div>
+<div class="amazingcarousel-title"></a></div>                    </div>
+                </li>
+                <li class="amazingcarousel-item">
+                    <div class="amazingcarousel-item-container">
+<div class="amazingcarousel-image"><a href="http://fninmunologia.com" target="_blank"><img class="logos tms" src="web/images/portafolio/Fundacion_Nacional_de_Inmunologia_logo.png" alt="Fundación Nasional de Inmunología"/></a></div>
+<div class="amazingcarousel-title"></div>                    </div>
+                </li>
+                <li class="amazingcarousel-item">
+                    <div class="amazingcarousel-item-container">
+<div class="amazingcarousel-image"><a href="http://fundacionjesusbendicealosninos.org" target="_blank"><img class="logos tms" src="web/images/portafolio/Jesus_Bendice.png" alt="Fundación Jesús Bendice a los Niños"/></a></div>
+<div class="amazingcarousel-title"></div>                    </div>
+                </li>
+                <li class="amazingcarousel-item">
+                    <div class="amazingcarousel-item-container">
+<div class="amazingcarousel-image"><a href="http://logisticaempresarialg5.com" target="_blank"><img class="logos tms" src="web/images/portafolio/logistica_empresarial_g5.png" alt="Logistica Empresarial Grupo 5"/></a></div>
+<div class="amazingcarousel-title"></div>                    </div>
+                </li>
+                <li class="amazingcarousel-item">
+                    <div class="amazingcarousel-item-container">
+<div class="amazingcarousel-image"><a href="http://aconcaprof.com" target="_blank"><img class="logos tms" src="web/images/portafolio/logo_aconcaprof.png" alt="Aconcaprof"/></a></div>
+<div class="amazingcarousel-title"></div>                    </div>
+                </li>
+                <li class="amazingcarousel-item">
+                    <div class="amazingcarousel-item-container">
+<div class="amazingcarousel-image"><a href="http://casasprefabricadascc.com/" target="_blank"><img class="logos tms" src="web/images/portafolio/logo_casas_prefabricadas.png" alt="Casas Prefabricadas"/></a></div>
+<div class="amazingcarousel-title"></div>                    </div>
+                </li>
+                <li class="amazingcarousel-item">
+                    <div class="amazingcarousel-item-container">
+<div class="amazingcarousel-image"><a href="http://construccionesgomo.com" target="_blank"><img class="logos tms" src="web/images/portafolio/logo_gomo.png" alt="Costrucciones Gomo"/></a></div>
+<div class="amazingcarousel-title"></div>                    </div>
+                </li>
+                <li class="amazingcarousel-item">
+                    <div class="amazingcarousel-item-container">
+<div class="amazingcarousel-image"><a href="http://innovarlab.com/" target="_blank"><img class="logos tms" src="web/images/portafolio/logo_Innovatorium.png" alt="Innobarlab"/></a></div>
+<div class="amazingcarousel-title"></div>                    </div>
+                </li>
+                <li class="amazingcarousel-item">
+                    <div class="amazingcarousel-item-container">
+<div class="amazingcarousel-image"><a href="http://tiendasin.com/juntos" target="_blank"><img class="logos tms" src="web/images/portafolio/logo_tiendasin.png" alt="Tiendas IN"/></a></div>
+<div class="amazingcarousel-title"></div>                    </div>
+                </li>
+                <li class="amazingcarousel-item">
+                    <div class="amazingcarousel-item-container">
+<div class="amazingcarousel-image"><a href="http://3x3books.co/" target="_blank"><img class="logos tms" src="web/images/portafolio/logo-3x3-books.png" alt="3x3 Boocks" /></a></div>
+<div class="amazingcarousel-title"></div>                    </div>
+                </li>
+                <li class="amazingcarousel-item">
+                    <div class="amazingcarousel-item-container">
+<div class="amazingcarousel-image"><a href="http://institutoavise.org" target="_blank"><img class="logos tms" src="web/images/portafolio/logo-avise.png" alt="Instituto Avise"/></a></div>
+<div class="amazingcarousel-title"></div>                    </div>
+                </li>
+                <li class="amazingcarousel-item">
+                    <div class="amazingcarousel-item-container">
+<div class="amazingcarousel-image"><a href="http://fancy-cupcakes.com" target="_blank"><img class="logos tms" src="web/images/portafolio/logo-fancy-cupcakes.png" alt="Famcy-cupkase" /></a></div>
+<div class="amazingcarousel-title"></div>                    </div>
+                </li>
+                <li class="amazingcarousel-item">
+                    <div class="amazingcarousel-item-container">
+<div class="amazingcarousel-image"><a href="http://fnosteoporosis.com" target="_blank"><img class="logos tms" src="web/images/portafolio/Logo-fn-osteoporosis.png" alt="Fundación Nacional de Osteoporosis" /></a></div>
+<div class="amazingcarousel-title"></div>                    </div>
+                </li>
+                <li class="amazingcarousel-item">
+                    <div class="amazingcarousel-item-container">
+<div class="amazingcarousel-image"><a href="http://inciviaingenieria.com" target="_blank"><img class="logos tms" src="web/images/portafolio/logo-incivia-ingenieria.png" alt="Incivia Ingenieria" /></a></div>
+<div class="amazingcarousel-title"></div>                    </div>
+                </li>
+                <li class="amazingcarousel-item">
+                    <div class="amazingcarousel-item-container">
+<div class="amazingcarousel-image"><a href="http://sistemapos.com" target="_blank"><img class="logos tms" src="web/images/portafolio/logo-sistemapos.png" alt="Sistema Pos" /></a></div>
+<div class="amazingcarousel-title"></div>                    </div>
+                </li>
+                <li class="amazingcarousel-item">
+                    <div class="amazingcarousel-item-container">
+<div class="amazingcarousel-image"><a href="http://viajeslunayfuego.com" target="_blank"><img class="logos tms" src="web/images/portafolio/logo-viajes-luna-y-fuego.png" alt="Viajes Luna y Fuego" /></a></div>
+<div class="amazingcarousel-title"></div>                    </div>
+                </li>
+            </ul>
+            <!--<div class="amazingcarousel-prev"></div>
+            <div class="amazingcarousel-next"></div>-->
+        </div>
+        <div><nav><li class="boton"><a href="http://webpuro.net/clientes/" target="_blank" >Área de cliente!!!</a></li></nav></div>
+        <!--<div class="amazingcarousel-nav"></div>
+        <div <clas></clas>s="amazingcarousel-engine"></div>-->
+    </div>
+</div>
+<!-- End of body section HTML codes 
+						</aside>
+						<div class="line"></div>
+						<aside class="clientes down">
+							<a href="http://inciviaingenieria.com/" target="_blank"><img class="logos tms" src="web/images/portafolio/logo-incivia-ingenieria.png" alt="Incivia Ingenieria"></a>
+							<a href="http://logisticaempresarialg5.com/" target="_blank"><img class="logos tms" src="web/images/portafolio/logistica_empresarial_g5.png" alt="logistica empresarial G5"></a>
+							<a href="http://tiendasin.com/" target="_blank"><img class="logos tms" src="web/images/portafolio/logo_tiendasin.png" alt="Tiendas IN"></a>
+							<a href="http://www.fundacionjesusbendicealosninos.org/" target="_blank"><img class="logos tms" src="web/images/portafolio/Jesus_Bendice.png" alt="Jesus Bendice a los Niños"></a>-->
+						</aside>
+					</div>
+				</section>										
+
+	<script type="text/javascript" src="web/js/fliplightbox.min.js"></script>
+	<script type="text/javascript">$('body').flipLightBox()</script>
+	<div class="clear"> </div>
+	</div>
+
+<!--End-gallery->
+<!- start-about-->
+<div class="about" id="servicios">
+	<div class="wrap">
+	<div class="s-wp">
+		<h3 id="soluciones-web">SOLUCIONES WEB</h3>
+			<p id="p-soluciones-web">LE DAMOS LA OPORTUNODAD A PEQUEÑAS EMPRESAS DE ESTAR EN LA INTERNET CON UN SITIO WEB CON PRECIOS COMPETITIVOS. OFRECEMOS DISEÑOS WEB CON DOMINIO DESDE $260.000 COP CON EL PLAN ECONÓMICO</p>
+			<a href="#productos" class="scroll"><span class="da-img"> </span> </a>
+	</div>
+		<div id="productos" class="about-grids">
+			<div class="grid">
+				<div class="dc_zoom_css">
+				<a href="#productos" class="scroll"><img class="post-person" src="web/images/icons/Icono-eMarketing.png" alt="WebPuro | E-Marketing"></a>					
+				</div>
+				<div  class="desc">
+					<h3>e-Marketing</h3>
+					<p>E-mail marketing es una excelente herramienta para incrementar su nivel de visitas y conversiones por la cercanía del mail.</p>
+					<!-- <a class="ver" href="#" class="scroll"></a> -->
+				</div>
+			</div>
+			<div class="grid">
+				<div class="dc_zoom_css">
+				<img class="post-person" src="web/images/icons/icono-chatpuro.png" alt="WebPuro | ChatPuro">
+				</div>
+				<div class="desc">
+					<h3>ChatPuro</h3>
+					<p>Comunicate con tus clientes desde un software virtual que se da a conocer como una ventana de chat, y sigue los productos que el usuario visualiza..</p>
+					<!-- <a class="ver" href="#"></a> -->
+				</div>
+			</div>
+			<div class="grid">
+				<div class="dc_zoom_css">
+				<img class="post-person" src="web/images/icons/icono-cloud.png" alt="WebPuro | Cloud">
+				</div>
+				<div class="desc">
+					<h3>Cloud</h3>
+					<p>Almacene sus archivos, carpetas, contactos, galerías de fotos,calendarios y acceda a sus datos donde quiera que esté, cuando lo necesite.</p>
+					<!--<a class="ver" href="#"></a> -->
+				</div>
+			</div>
+			<div class="clear"> </div>
+		</div>
+	</div>
+	<a href="#contact" class="scroll"><span class="da-img"> </span> </a>
+	
+	<nav class="menu-principal">
+							<img src="web/images/MOCKUP-WP-LOGO-PRINCIPAL.png" alt="WebPuro.net">
+							<ul>
+								<li><a href="#home" class="scroll">INICIO</a></li>
+								<li><a href="#portfolio" class="scroll">PLANES</a></li>
+								<li><a href="#casos" class="scroll">CLIENTES</a></li>
+								<li><a href="#redes" class="scroll">REDES</a></li>
+								<li><a href="http://webpuro.net/planes-hosting.html" target="_blank" >HOSTING</a></li>
+								<!-- <li><a href="http://appcotizador.webpuro.net" target="_Blank" class="cotizador">COTIZADOR</a></li> -->
+							</ul>
+						</nav>
+</div>
+<!-- end-about -->
+<div class="contact" id="contact">
+	<div class="wrap">
+		<a href="#contact" class="scroll"><h2>ESCRIBENOS!</h2></a><h3 class="color-n">ó llamanos(+57) 1 688 5601</h3>
+		
+		<div class="section group">
+			  <div class="col span_2_of_3">
+				  <div class="contact-form">
+				  	  <form method="post" id="fcontacto" name="fcontacto" action="./">
+					    		<input type="text" class="textbox" name="nombre" placeholder="Nombre">
+						    	<input type="text" class="email" name="email" placeholder="Email" >
+						    	<div class="clear"></div>
+						    	<input type="text" class="textbox" name="asunto" placeholder="Asunto">
+						    	<input type="tel" class="tel" name="movil" placeholder="Movil" >
+						    	<div class="clear"> </div>
+						    <div>
+						    	<textarea placeholder="Su Mensaje:" name="mensaje"></textarea>
+						    </div>
+						  <span><input type="submit" class="" value="Enviar"></span>
+						  <div class="clear"></div>
+						  <div id="respuesta" style="display: none;"></div>
+					    </form>
+				  </div>
+  				</div>
+				 <div class="clear"></div>
+			  </div>
+			  </div>
+     	</div>
+     <div class="footer-bottom" id="redes">
+     	<div class="wrap">
+        <div class="copy">
+        	<div class="twitter"></div>
+		    <p class="copy">&copy; 2015-2016 all rights reserved Desing By <a href="http://webpuro.net" target="_blank">WebPuro</a></p>
+        <div id="Redes-contenedor">
+        	<a href="https://www.facebook.com/webpuro" target="_Blank"><img class="Redes" src="web/images/Redes/Facebook.png" alt="WebPuro | Facebook"></a>
+        	<a href="https://twitter.com/webpuro" target="_Blank"><img class="Redes" src="web/images/Redes/Twitter.png" alt="WebPuro | Twitter"></a><br class="salto">
+        	<a href="" target="_Blank"><img class="Redes" src="web/images/Redes/Instagram.png" alt="WebPuro | Instagram"></a>
+        	<a href="https://plus.google.com/102853509691624974633" rel="publisher" target="_Blank"><img class="Redes" src="web/images/Redes/Google+.png" alt="WebPuro | Google Plus"></a>
+        </div>
+       <!-- <form class="subs" method="POST" action="">
+        	<input type="email" name="correo" placeholder="CORREO" />
+        	<input type="submit" name="enviar" value="REGISTRARME" /><br>
+        	<input type="checkbox" name="checkbox" /><strong>ACEPTO LOS TERMINO Y CONDICIONES</strong>
+        </form>-->
+		</div>
+		<script type="text/javascript">
+							$(document).ready(function() {
+								
+								var defaults = {
+						  			containerID: 'toTop', // fading element id
+									containerHoverID: 'toTopHover', // fading element hover id
+									scrollSpeed: 1000,
+									easingType: 'linear' 
+						 		};
+								
+								
+								$().UItoTop({ easingType: 'easeOutQuart' });
+								
+							});
+		</script>
+		 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+		<script src="web/js/jquery.scrollTo.js"></script>
+		</div>
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-35135028-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	</div>
+</body>
+</html>
