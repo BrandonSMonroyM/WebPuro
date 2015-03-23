@@ -84,6 +84,30 @@
 					});
 				});
 			</script>
+			<script type="text/javascript">
+				$(document).ready(main);
+
+var contador = 1;
+
+function main (){
+	$('.menu_bar').click(function(){
+		// $('nav').toggle(); Forma Sencilla de aparecer y desaparecer
+		
+		if (contador == 1){
+			$('.nav-responsive').animate({
+				left: '0'
+			});
+			contador = 0;
+		} else {
+			contador = 1;
+			$('.nav-responsive').animate({
+				left: '-100%'
+			});
+		};
+		
+	});
+};
+			</script>
     <!-- Insert to your webpage before the </head> -->
     <!-- <script src="web/carouselengine/jquery.js"></script> -->
     <script src="web/carouselengine/amazingcarousel.js"></script>
@@ -96,6 +120,21 @@
 		<!-- start slider -->
 <div class="slider_bg" id="home">
 		<div class="wrap">
+		<div class="menu_bar">
+			<a class="bt-menu" href="#"><img src="web/images/MOCKUP-WP-LOGO.png" width="22px" alt="menu"></span><img class="nav-icon" src="web/images/nav-icon.png" width="22px" alt="menu">WebPuro.net</a>
+		</div>
+
+		<nav class="nav-responsive">
+			<ul>
+				<li><a href="#portfolio" class="scroll">PLANES</a></li>
+				<li><a href="#productos" class="scroll">PRODUCTOS</a></li>
+				<li><a href="#contact" class="scroll">ATENCIÓN</a></li>
+				<li><a href="http://webpuro.net/planes-hosting.html" target="_blank" >HOSTING</a></li>
+				<li><a href="#servicios" class="scroll">SERVICIOS</a></li>
+				<li><a href="#casos" class="scroll">CLIENTES</a></li>
+				<li><a href="#redes" class="scroll">REDES</a></li>
+			</ul>
+		</nav>
 				<!---start-da-slider- -->
 						<nav class="menu-principal">
 							<img src="web/images/MOCKUP-WP-LOGO-PRINCIPAL.png" alt="WebPuro.net">
