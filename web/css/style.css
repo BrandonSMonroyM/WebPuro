@@ -145,7 +145,7 @@ section {
 	.nav-responsive {
 		width:80%;
 		margin:0;
-		position: absolute;
+		position: fixed;
 		left:-100%;
 		/*top:0px;*/
 		overflow:auto;
@@ -156,6 +156,8 @@ section {
 	.menu_bar {
 		display:block;
 		width:100%;
+		position: fixed;
+		z-index: 10000;
 		background:#ccc;
 	}
 
@@ -1252,6 +1254,7 @@ p{
 	.nav-responsive{
 		width: 100%;
 		z-index: 1000;
+		top: 10%;
 	}
 	.menu-principal ul{
 		width: 76%;
@@ -1420,6 +1423,7 @@ padding: 0.5em 0.7em;
 		width: 60%;
 		text-align: center;
 		margin-left: 20%;
+		margin-top: 10%;
 	}
 }
 @media only screen and (max-width:640px){
@@ -1577,6 +1581,7 @@ padding: 3em 0em;
 	width: 60%;
 	text-align: center;
 	margin-left: 21%;
+	margin-top: 18%;
 }
 .menu-principal img {
 	width: 45%;
