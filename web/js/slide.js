@@ -29,7 +29,3 @@ function moveSlider(direccion){
 		'margin-left': -(indicador * $('.container').width())+'px'
 	});
 }
-
-
-
-

@@ -91,8 +91,9 @@ var contador = 1;
 
 function main (){
 	$('.menu_bar').click(function(){
-		// $('nav').toggle(); Forma Sencilla de aparecer y desaparecer
-		
+		// $('.nav-responsive').toggle(); //Forma Sencilla de aparecer y desaparecer
+		// event.preventDefault();
+		// $('.nav-responsive').animate({left:'0'.offset().left},1000);
 		if (contador == 1){
 			$('.nav-responsive').animate({
 				left: '0'
@@ -121,7 +122,7 @@ function main (){
 <div class="slider_bg" id="home">
 		<div class="wrap">
 		<div class="menu_bar">
-			<a class="bt-menu" href="#"><img src="web/images/MOCKUP-WP-LOGO.png" width="22px" alt="menu"></span><img class="nav-icon" src="web/images/nav-icon.png" width="22px" alt="menu">WebPuro.net</a>
+			<button class="bt-menu"><img src="web/images/MOCKUP-WP-LOGO.png" width="22px" alt="menu"><img class="nav-icon" src="web/images/nav-icon.png" width="22px" alt="menu">WebPuro.net</button>
 		</div>
 
 		<nav class="nav-responsive">

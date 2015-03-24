@@ -172,9 +172,14 @@ section {
 		font-size:25px;
 		font-weight:bold;
 		color:#fff;
+		border: none;
+		width: 100%;
+		cursor: pointer;
 		text-decoration:none;
 	}
-
+	.menu_bar .bt-menu:focus{
+		outline: none;
+	}
 	.menu_bar img {
 		float:right;
 		font-size:40px;
@@ -1256,6 +1261,9 @@ p{
 		z-index: 1000;
 		top: 10%;
 	}
+	.menu_bar .bt-menu:focus{
+		outline: none;
+	}
 	.menu-principal ul{
 		width: 76%;
 	}
@@ -1577,6 +1585,9 @@ padding: 3em 0em;
 .wrap{
 		width:100%;
 }
+.menu_bar .bt-menu:focus{
+		outline: none;
+	}
 #Logo-WP {
 	width: 60%;
 	text-align: center;
@@ -1606,6 +1617,13 @@ nav.nav {
 .logo {
 	float: none;
 	text-align: center;
+}
+.s-wp #soluciones-web{
+	line-height: normal;
+}
+.s-wp #p-soluciones-web{
+	  width: 62%;
+	  margin-top: 0px;
 }
 .nav {
 	float: none;
@@ -1674,7 +1692,7 @@ margin-bottom: 1.5em;
 	font-size: 0.9em;
 }
 .da-img {
-	margin: 1em auto 1em;
+	margin: -1em auto 1em;
 }
 .da-slide {
 	padding: 4%  0%;
@@ -1766,7 +1784,7 @@ font-size: 1.8em;
 }
 }
 /******/
-@media only screen and (max-width:320px) and (min-width:480px){
+@media only screen and (max-width:390px){
 	.wrap{
 			width:100%;
 	}
@@ -1778,6 +1796,12 @@ font-size: 1.8em;
 		float: none;
 		margin-top: 0.4em;
 		text-align:left;
+	}
+	.nav-responsive{
+		top: 14%;
+	}
+	.menu_bar .bt-menu:focus{
+		outline: none;
 	}
 	#filters {
 		width:100%;
