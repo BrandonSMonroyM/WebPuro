@@ -108,7 +108,9 @@ body {
 	visibility: hidden;
 	margin-bottom: -13%;
 }
-
+a.link-plan {
+  color: #FFF;
+}
 .menu_bar {
 	display:none;
 }
@@ -468,6 +470,7 @@ nav .boton a:hover {
 
 .Titulo_Plan{
 	font-family: 'bebas_neueregular';
+	color: #FFF;
 	font-size: 36px;
 	width: auto;
 	
@@ -556,7 +559,7 @@ h1{
    -moz-text-shadow: 2px 2px 2px #000;
 }
 h2{
-	color: #ff4c21:
+	color: #ff4c21;
 	margin: 5px;
 	padding: 5px 5px;
 	font-weight: 900
