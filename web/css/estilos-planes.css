@@ -108,6 +108,20 @@ h1,h2,h3,h4,h5,h6{
 			.form-plan table input:focus{
 				outline: none;
 			}
+			.form-plan .asunto{
+				border: 1px solid #ccc;
+				color: #ff4c21;
+				font-family: consolas;
+				font-size: 16px;
+				font-style: italic;
+				font-weight: 600;
+				margin-bottom: 8px;
+				padding: 10px 5px;
+				width: 89%;
+			}
+			.form-plan .asunto:focus{
+				outline: none;
+			}
 		.form-plan textarea{
 			color: #ff4c21;
 			font-family: consolas;
@@ -157,6 +171,58 @@ h1,h2,h3,h4,h5,h6{
 		.form-plan input[type="submit"]:focus{
 			outline: none;
 		}
+.envio-body{
+	background-image: url(../images/google-bg.jpg);
+	background-position: 0 -300px;
+}
+.envio-body::selection{
+	background-color: #444;
+	color: #FFF;
+}
+.head-aviso{
+	text-align: center;
+}
+.head-aviso h1{
+	color: #fff;
+	font-family: "z_aristaregular";
+	font-weight: 100;
+	font-size: 60px;
+}
+.aviso{
+	background-color: #ccc;
+	border-radius: 5px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	border: 3px solid #eee;
+	height: 40px;
+	margin: auto;
+	padding: 5px;
+	width: 95%;
+}
+.aviso p{
+	line-height: 40px;
+	width: 100%;
+}
+.aviso p:first-child{
+	width: 2.5%;
+}
+.good {
+	background-color: #28A000;
+	color: #fff;
+}
+.good p{
+	color: #fff !important;
+}
+.bad{
+	background-color: #f00;
+	color: #fff;
+}
+.bad p{
+	color: #fff !important;
+}
 footer{
 	background-color: #ff4c21;
 	bottom: 0;

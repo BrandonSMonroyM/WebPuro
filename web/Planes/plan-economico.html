@@ -2,7 +2,7 @@
 <html lang="es-CO">
 <head>
 	<meta charset="UTF-8">
-	<meta name="description" content="Diseñado para el profesional moderno, activo y visible, web presentación en plan básico ideal para iniciar tu presencia en la web.">
+	<meta name="description" content="Plan diseñado para las personas que estan empezando una empresa y quieren una aplicación economica pero que sea funcional y que tenga un gran diseño.">
 	<meta name="Author" content="WebPuro">
 	<meta name="languaje" content="Spanish">
 	<meta name="contact" content="soporte@webpuro.net">
@@ -56,10 +56,10 @@
 								$('.nav-responsive').animate({
 									left: '-100%'
 								});
-							};
+							}
 							
 						});
-					};
+					}
 			</script>
 		   	<script type="text/javascript">
 				// jQuery(document).ready(function($) {
@@ -121,21 +121,22 @@
 				</div>
 				<div class="planes">
 					<h2>Solicitar mi Cotización</h2>
-					<form action="" class="form-plan" method="POST">
+					<form action="enviar_correo.php" class="form-plan" method="POST">
+					<input type="text" class="asunto" name="subject" placeholder="Asunto">
 						<table>
-							<tr>
+						<tr>
 								<td><input type="text" placeholder="Nombres" name="nombre" required /></td>
 								<td><input type="text" placeholder="Apellidos" name="apellido" required /></td>
 							</tr>
-							<tr>
-								<td><input type="email" name="email" placeholder="E-mail" required /></td>
-								<td><input type="phone" pattern="[0-9]{10}" name="telefono" placeholder="Teléfono" required /></td>
-							</tr>
-							<tr>
-								<td><input type="text" name="country" placeholder="País" required /></td>
-								<td><input type="text" name="city" placeholder="Ciudad" required /></td>
-							</tr>
-						</table>
+                            <tr>
+                                <td><input type="email" name="email" placeholder="E-mail" required/></td>
+                                <td><input type="tel" pattern="[0-9]{10}" name="telefono" placeholder="Teléfono"
+                                           required/></td>
+
+                                <td><input type="text" name="country" placeholder="País" required/></td>
+                                <td><input type="text" name="city" placeholder="Ciudad" required/></td>
+                            </tr>
+                        </table>
 						<textarea name="messaje" placeholder="Tú mensaje..." rows="6"></textarea>
 						<input type="submit" name="enviar" value="Enviar Cotización">
 					</form>
@@ -148,5 +149,6 @@
 		<a href="https://plus.google.com/102853509691624974633/posts?hl=es_419" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
 		<a href=""><i class="fa fa-instagram fa-2x"></i></a>
 	</footer>
+</div>
 </body>
 </html>
