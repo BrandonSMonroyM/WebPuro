@@ -70,6 +70,40 @@ h1,h2,h3,h4,h5,h6{
 .planes:hover{
 	background-color: transparent !important;
 }
+.tienda{
+	background-image: url(../images/google-bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 400px;
+	position: relative;
+}
+.tienda h1,h2{
+	color: #FFF !important;
+	width: 100%;
+	margin: 0;
+	background-color: #363636;
+	text-shadow: 3px 3px 5px #FF4C21 !important;
+}
+.bg_economico{
+	background-image: url(../images/banners/Economico.png);
+}
+.bg_emprendedor{
+	background-image: url(../images/banners/Emprendedor.png);
+}
+.bg_visionario{
+	background-image: url(../images/banners/Visionario.png);
+}
+.bg_chat{
+}
+.tienda .plan-p{
+	background-color: #363636;
+	position: absolute;
+	bottom: 0;
+}
+.tienda .plan-p p{
+	color: #fff !important;
+	width: 100%;
+}
 	.planes h2{
 		color: #fff;
 		font-family: 'z_aristaregular';
@@ -82,6 +116,7 @@ h1,h2,h3,h4,h5,h6{
 	.form-plan{
 		text-align: center;
 		width: 100%;
+		padding-bottom: 2%;
 	}
 		.form-plan table{
 			margin: auto;

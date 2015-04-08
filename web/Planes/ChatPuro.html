@@ -113,15 +113,21 @@ function main (){
 								<p class="para">PLANES DE DESARROLLO WEB.</p>
 							</div>
 						</div>
+						</div>
 					<!--end-mfp -->	
 			<!---start-content- -->
 			<div class="gallery">
-				<div class="tienda">		
-					<img class="tiendas" src="../images/banners/Tiendas_Online_webpuro.net.jpg" alt="Tiendas Online">
+				<div class="tienda bg_chat">
+				<h2>ChatPuro</h2>	
+					<!-- <img class="tiendas" src="../images/banners/Tiendas_Online_webpuro.net.jpg" alt="Tiendas Online"> -->
+					<div class="plan-p">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas facilis quae est commodi laboriosam quod eligendi, alias quibusdam corrupti! Recusandae modi ratione laboriosam? Quo magni, deserunt culpa nihil nesciunt.</p>
+					</div>
 				</div>
 				<div class="planes">
 					<h2>Solicitar mi Cotización</h2>
-					<form action="" class="form-plan" method="POST">
+					<form action="enviar_correo.php" class="form-plan" method="POST">
+					<input type="text" class="asunto" name="subject" placeholder="Asunto">
 						<table>
 							<tr>
 								<td><input type="text" placeholder="Nombres" name="nombre" required /></td>
