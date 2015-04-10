@@ -120,30 +120,31 @@
 					<h1>Plan Ecónomico</h1>
 					<!-- <img class="tiendas" src="../images/banners/Tiendas_Online_webpuro.net.jpg" alt="Tiendas Online"> -->
 					<div class="plan-p">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas facilis quae est commodi laboriosam quod eligendi, alias quibusdam corrupti! Recusandae modi ratione laboriosam? Quo magni, deserunt culpa nihil nesciunt.</p>
+						<p>Plan de Servicio al año, IVA incluido.Diseño básico para su sitio Web a su imagen corporativa:</p>
+						<p>Menú; Inicio, Quienes Somos, Misión, Visión, Contáctenos, ó pueden ser de su elección. 30 Imágenes, 5 links, 10 cuentas de correo. Hosting ajustado al tamaño de su diseño. 99.9% Actividad del Servidor compartido. 24/7 Atención al Cliente vía tiket, para la asistencia oportuna a sus requerimientos. Satisfacción Garantizada 30 días ó devolución de dinero. Nombre de Dominio GRATIS puede escoger: .com , .net , .org , .info</p>
 					</div>
 				</div>
 				<div class="planes">
 					<h2>Solicitar mi Cotización</h2>
-					<form action="enviar_correo.php" class="form-plan" method="POST">
-					<input type="text" class="asunto" name="subject" placeholder="Asunto">
+					<form action="enviar_correo.php" class="form-plan" method="post">
+					<input type="text" class="asunto" id="subject" name="subject" placeholder="Asunto">
 						<table>
 						<tr>
-								<td><input type="text" placeholder="Nombres" name="nombre" required /></td>
-								<td><input type="text" placeholder="Apellidos" name="apellido" required /></td>
+								<td><input type="text" placeholder="Nombres" id="nombre" name="nombre"  /></td>
+								<td><input type="text" placeholder="Apellidos" id="apellido" name="apellido"  /></td>
 							</tr>
                             <tr>
-                                <td><input type="email" name="email" placeholder="E-mail" required/></td>
-                                <td><input type="tel" pattern="[0-9]{10}" name="telefono" placeholder="Teléfono" required/>
+                                <td><input type="email" name="email" id="email" placeholder="E-mail" /></td>
+                                <td><input type="tel" pattern="[0-9]{10}" id="tel" name="telefono" placeholder="Teléfono" />
                                 </td>
 							</tr>
 							<tr>
-                                <td><input type="text" name="country" placeholder="País" required/></td>
-                                <td><input type="text" name="city" placeholder="Ciudad" required/></td>
+                                <td><input type="text" name="country" id="country" placeholder="País" /></td>
+                                <td><input type="text" name="city" id="city" placeholder="Ciudad" /></td>
                             </tr>
                         </table>
-						<textarea name="messaje" placeholder="Tú mensaje..." rows="6"></textarea>
-						<input type="submit" name="enviar" value="Enviar Cotización">
+						<textarea name="messaje" placeholder="Tú mensaje..." id="mensaje" rows="6"></textarea>
+						<input type="submit" name="enviar" onclick="enviar_datos_ajax();" value="Enviar Cotización">
 					</form>
 				</div>
 			</div>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="es-CO">
-<meta http-equiv="Refresh" content="2;url= http://webpuro.net/web/Planes/plan-economico.html">
+<html lang="en">
+<meta http-equiv="Refresh" content="2;url= http://webpuro.net/web/Planes/ChatPuro.html">
 <head>
     <meta charset="UTF-8">
     <title>WebEnvio • WebPuro</title>
@@ -44,6 +44,8 @@ if (isset($_POST['nombre'])&&($_POST['apellido']!='')&&($_POST['email']!='')&&($
         </header>
         <div class='aviso bad'><p><i class='fa fa-times fa-2x'></i> </p><p>Hay algún problema al enviar revisa que hallas llenado todos los campos</p></div>";
     }
+
+?>
 
 ?>
 </body>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="es-CO">
-<meta http-equiv="Refresh" content="2;url= http://webpuro.net/web/Planes/plan-economico.html">
+<html lang="en">
+<meta http-equiv="Refresh" content="2;url= http://webpuro.net/web/Planes/plan-emprendedor.html">
 <head>
     <meta charset="UTF-8">
     <title>WebEnvio • WebPuro</title>
@@ -10,6 +10,7 @@
 </head>
 <body class="envio-body">
 <?php
+
 
 if (isset($_POST['nombre'])&&($_POST['apellido']!='')&&($_POST['email']!='')&&($_POST['subject']!='')&&($_POST['country']!='')&&($_POST['city']!='')&&($_POST['messaje']!='')) {
         $nombre  = $_POST['nombre'];

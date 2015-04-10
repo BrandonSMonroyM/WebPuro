@@ -9,7 +9,14 @@
 	font-style: normal;
 
 }
-
+.container h2{
+	background-color: #ddd /*!important*/;
+	text-align: center;
+	width: 90%;
+	color: #FF4C21 !important;
+	text-shadow: inherit !important;
+	margin: auto;
+}
 @font-face {
 	font-family: 'bebas_neueregular';
 		src: url('../fonts/Bebas/bebasneue_regular-webfont.eot');
@@ -80,6 +87,7 @@ h1,h2,h3,h4,h5,h6{
 .tienda h1,h2{
 	color: #FFF !important;
 	width: 100%;
+	text-align: center;
 	margin: 0;
 	background-color: #363636;
 	text-shadow: 3px 3px 5px #FF4C21 !important;
@@ -292,7 +300,10 @@ header{
 }
 	header h2{
 		color: #FFF;
+		background-color: transparent !important;
+		text-shadow: inherit !important;
 		font-family: 'z_aristaregular';
+		color: #fff !important;
 		font-size: 55px;
 		font-weight: 100;
 	}
@@ -330,7 +341,7 @@ p{
 	text-align: justify;
 	width: 90%;
 }
-h2{
+.cms,.SEO h2{
 	text-align: center;
 }
 #ChatPuro{
@@ -358,6 +369,9 @@ h2{
 }
 .cms h2{
 	text-align: center;
+	background-color: #fff;
+	color: #FF4C21 !important;
+	text-shadow: inherit !important;
 	width: 100%;
 }
 .cms p{
@@ -448,8 +462,9 @@ h2{
 	padding-bottom: 2%;
 	text-align: center;
 }
-.SEO h2,h3{
+.SEO h2{
 	text-align: center;
+	background-color: #ccc !important;
 }
 .SEO p{
 	width: 100%;
@@ -597,6 +612,21 @@ h2{
 		background-position-y: 84px;
 		background-size: 145px;
 		width: 100%;
+	}
+	.bg_economico {
+		background-size: 405px;
+		background-position-x: -12px;
+		background-position-y: 44px;
+	}
+	.bg_emprendedor {
+		background-size: 405px;
+		background-position-x: -12px;
+		background-position-y: 44px;
+	}
+	.bg_economico {
+		background-size: 405px;
+		background-position-x: -12px;
+		background-position-y: 44px;
 	}
 	.Nube article {
 		margin: auto;
