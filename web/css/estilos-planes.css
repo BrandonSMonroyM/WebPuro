@@ -90,7 +90,6 @@ h1,h2,h3,h4,h5,h6{
 	text-align: center;
 	margin: 0;
 	background-color: #363636;
-	text-shadow: 3px 3px 5px #FF4C21 !important;
 }
 .bg_economico{
 	background-image: url(../images/banners/Economico.png);
@@ -114,11 +113,11 @@ h1,h2,h3,h4,h5,h6{
 }
 	.planes h2{
 		color: #fff;
-		font-family: 'z_aristaregular';
+		font-family: 'oxygenregular';
 		font-size: 30px;
 		font-style: italic;
 		font-weight: 100;
-		margin-bottom: 4%;
+		margin-bottom: 1%;
 		text-align: center;
 	}
 	.form-plan{
@@ -134,8 +133,6 @@ h1,h2,h3,h4,h5,h6{
 			.form-plan table input{
 				border: 1px solid #ccc;
 				color: #ff4c21;
-				font-family: consolas;
-				font-size: 16px;
 				font-style: italic;
 				font-weight: 600;
 				margin-bottom: 8px;
@@ -154,8 +151,6 @@ h1,h2,h3,h4,h5,h6{
 			.form-plan .asunto{
 				border: 1px solid #ccc;
 				color: #ff4c21;
-				font-family: consolas;
-				font-size: 16px;
 				font-style: italic;
 				font-weight: 600;
 				margin-bottom: 8px;
@@ -167,8 +162,6 @@ h1,h2,h3,h4,h5,h6{
 			}
 		.form-plan textarea{
 			color: #ff4c21;
-			font-family: consolas;
-			font-size: 16px;
 			font-style: italic;
 			font-weight: 600;
 			max-height: 130px !important;
